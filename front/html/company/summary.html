@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(주)이튜</title>
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/layout.css">
+    <link rel="stylesheet" href="../../css/sub.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../../js/common.js"></script>
+    <!-- swiper cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.4/swiper-bundle.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.4/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="site">
+        <!-- 헤더 -->
+        <header id="header">
+            <!-- PC헤더 -->
+            <div class="header">
+                <div class="inner">
+                    <h1 class="logo"><a href="./"></a></h1>
+                    <nav class="nav">
+                        <ul class="depth1">
+                            <li><a href="#">회사현황</a>
+                                <ul class="depth2">
+                                    <li><a href="#">회사개요</a></li>
+                                    <li><a href="#">회사연혁</a></li>
+                                    <li><a href="#">인증및보유기술</a></li>
+                                    <li><a href="#">조직도</a></li>
+                                    <li><a href="#">비즈니스</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">사업분야</a>
+                                <ul class="depth2">
+                                    <li><a href="#">클라우드</a></li>
+                                    <li> <a href="#">HPC</a></li>
+                                    <li> <a href="#">VDI</a></li>
+                                    <li> <a href="#">인프라구축</a></li>
+                                    <li> <a href="#">망연계</a></li>
+                                    <li> <a href="#">시스템접근제어</a></li>
+                                    <li> <a href="#">ECM</a></li>
+                                    <li> <a href="#">백업,APM</a></li>
+                                    <li> <a href="#">방화벽,네트워크,스위치</a></li>
+                                    <li> <a href="#">IoT</a></li>
+                                    <li> <a href="#">Private 5G Network</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">사업실적</a>
+                                <ul class="depth2">
+                                    <li><a href="#">클라우드</a></li>
+                                    <li><a href="#">연구개발과제</a></li>
+                                    <li><a href="#">기타주요사업</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- 모바일헤더 -->
+            <div class="mobileHeader">
+                <h2 class="logo"><a href="#"></a></h2>
+                <div class="mBtn">
+                    <span class="bar1"></span>
+                    <span class="bar2"></span>
+                    <span class="bar3"></span>
+                </div>
+                <nav class="lnb">
+                    <div class="inner">
+                        <ul class="mlnb">
+                            <li><a href="#" class="depth"><span>회사현황</span> <i></i></a>
+                                <ul class="lnbSub">
+                                    <li><a href="#">회사개요</a></li>
+                                    <li><a href="#">회사연혁</a></li>
+                                    <li><a href="#">인증및보유기술</a></li>
+                                    <li><a href="#">조직도</a></li>
+                                    <li><a href="#">비즈니스</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="depth"><span>사업분야</span><i></i></a>
+                                <ul class="lnbSub">
+                                    <li><a href="#">클라우드</a></li>
+                                    <li> <a href="#">HPC</a></li>
+                                    <li> <a href="#">VDI</a></li>
+                                    <li> <a href="#">인프라구축</a></li>
+                                    <li> <a href="#">망연계</a></li>
+                                    <li> <a href="#">시스템접근제어</a></li>
+                                    <li> <a href="#">ECM</a></li>
+                                    <li> <a href="#">백업,APM</a></li>
+                                    <li> <a href="#">방화벽,네트워크,스위치</a></li>
+                                    <li> <a href="#">IoT</a></li>
+                                    <li> <a href="#">Private 5G Network</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="depth"><span>사업실적</span><i></i></a>
+                                <ul class="lnbSub">
+                                    <li><a href="#">클라우드</a></li>
+                                    <li><a href="#">연구개발과제</a></li>
+                                    <li><a href="#">기타주요사업</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            </header>
+            <script>
+                $(function () {
+                    $(".header").addClass('fixed');
+                    $('.nav .depth1 > li:nth-child(1) > a').addClass('on');
+                    $('.nav .depth1 > li:nth-child(1) > a').addClass('active');
+                    $('.nav .depth1 > li:nth-child(1) > .depth2 > li:nth-child(1) > a').addClass('act');
+                });
+            </script>
+            <main id="page">
+                <!-- 페이지 위치 -->
+               <section id="visual" class="subVisual summary">
+                <div class="areaBox">
+                    <div class="area">
+                        <div class="location">
+                            <ul>
+                                <li> <a href="#"> <i class="home"></i></a></li>
+                                <li>회사현황</li>
+                            </ul>
+                        </div>
+                        <h2 class="visualTitle">회사개요</h2>
+                    </div>
+                </div>
+               </section>
+               <section id="contain1" class="contain1">
+                <div class="wrap">
+                    <div class="flex">
+                        <div class="subTitle">
+                            <div class="tit">ABOUT</div>
+                            <h3 class="title">(주)이튜</h3>
+                        </div>
+                        <div class="subText">
+                            <p>이튜는 대구지역에 소재한 클라우드, 인공지능, 네트워크, 보안, IoT 인프라 구축 및 운영 전문업체로 기술력을 바탕으로 혁신, 균형, 성장을 이루어 가는 동시에 고객과 함께 상호 신뢰와 최고의 품질, 올바른 기업 문화 확립을 통해 미래를 함께 하고자 합니다.</p>
+                        </div>
+                        <div class="profile">
+                            <div class="title">
+                                <h4 class="tit">company<br>
+                                    profile</h4>
+                            </div>
+                            <div class="table">
+                                <div class="tbl">
+                                    <table>
+                                        <colgroup>
+                                            <col class="w30p">
+                                            <col class="w70p">
+                                        </colgroup>
+                                        <tbody>
+                                            <tr>
+                                                <th>대표이사</th>
+                                                <td>김광수, 김체담</td>
+                                            </tr>
+                                            <tr>
+                                                <th>설립일자</th>
+                                                <td>2008. 11. 01</td>
+                                            </tr>
+                                            <tr>
+                                                <th>주소</th>
+                                                <td>대구시 수성구 알파시티1로 31길 12</td>
+                                            </tr>
+                                            <tr>
+                                                <th>직원 수</th>
+                                                <td>총 78명 (2023. 7 기준)</td>
+                                            </tr>
+                                            <tr>
+                                                <th>사업분야</th>
+                                                <td>
+                                                    <div class="text">
+                                                        <p>클라우드, 인공지능, 보안, N/W, IoT 등</p>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </main>
+            <!-- footer -->
+            <footer id="footer">
+                <div class="footer">
+                    <div class="wrap">
+                        <div class="content">
+                            <div class="logo">
+                                <img src="../../img/logo-white.svg" alt="(주)이튜">
+                            </div>
+                            <div class="con">
+                                <p>(42250)대구광역시 수성구 알파시티1로 31길 12 </p>
+                                <p>사업자등록번호 : 514-81-66515 </p>
+                                <p>대표전화 : 053-623-1468</p>
+                                <p>팩스번호 : 053-623-1469</p>
+                                <p>이메일 : kkosoo@ieetu.com </p>
+                                <p>대표 : 김광수</p>
+                            </div>
+                        </div>
+                        <div class="copy">
+                            <p>Copyright by © kpgs</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+    </div>
+
+</body>
+
+</html>

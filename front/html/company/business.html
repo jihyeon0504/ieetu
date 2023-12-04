@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(주)이튜</title>
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/layout.css">
+    <link rel="stylesheet" href="../../css/sub.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../../js/common.js"></script>
+    <!-- swiper cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.4/swiper-bundle.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.4/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="site">
+        <!-- 헤더 -->
+        <header id="header">
+            <!-- PC헤더 -->
+            <div class="header">
+                <div class="inner">
+                    <h1 class="logo"><a href="./"></a></h1>
+                    <nav class="nav">
+                        <ul class="depth1">
+                            <li><a href="#">회사현황</a>
+                                <ul class="depth2">
+                                    <li><a href="#">회사개요</a></li>
+                                    <li><a href="#">회사연혁</a></li>
+                                    <li><a href="#">인증및보유기술</a></li>
+                                    <li><a href="#">조직도</a></li>
+                                    <li><a href="#">비즈니스</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">사업분야</a>
+                                <ul class="depth2">
+                                    <li><a href="#">클라우드</a></li>
+                                    <li> <a href="#">HPC</a></li>
+                                    <li> <a href="#">VDI</a></li>
+                                    <li> <a href="#">인프라구축</a></li>
+                                    <li> <a href="#">망연계</a></li>
+                                    <li> <a href="#">시스템접근제어</a></li>
+                                    <li> <a href="#">ECM</a></li>
+                                    <li> <a href="#">백업,APM</a></li>
+                                    <li> <a href="#">방화벽,네트워크,스위치</a></li>
+                                    <li> <a href="#">IoT</a></li>
+                                    <li> <a href="#">Private 5G Network</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">사업실적</a>
+                                <ul class="depth2">
+                                    <li><a href="#">클라우드</a></li>
+                                    <li><a href="#">연구개발과제</a></li>
+                                    <li><a href="#">기타주요사업</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- 모바일헤더 -->
+            <div class="mobileHeader">
+                <h2 class="logo"><a href="#"></a></h2>
+                <div class="mBtn">
+                    <span class="bar1"></span>
+                    <span class="bar2"></span>
+                    <span class="bar3"></span>
+                </div>
+                <nav class="lnb">
+                    <div class="inner">
+                        <ul class="mlnb">
+                            <li><a href="#" class="depth"><span>회사현황</span> <i></i></a>
+                                <ul class="lnbSub">
+                                    <li><a href="#">회사개요</a></li>
+                                    <li><a href="#">회사연혁</a></li>
+                                    <li><a href="#">인증및보유기술</a></li>
+                                    <li><a href="#">조직도</a></li>
+                                    <li><a href="#">비즈니스</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="depth"><span>사업분야</span><i></i></a>
+                                <ul class="lnbSub">
+                                    <li><a href="#">클라우드</a></li>
+                                    <li> <a href="#">HPC</a></li>
+                                    <li> <a href="#">VDI</a></li>
+                                    <li> <a href="#">인프라구축</a></li>
+                                    <li> <a href="#">망연계</a></li>
+                                    <li> <a href="#">시스템접근제어</a></li>
+                                    <li> <a href="#">ECM</a></li>
+                                    <li> <a href="#">백업,APM</a></li>
+                                    <li> <a href="#">방화벽,네트워크,스위치</a></li>
+                                    <li> <a href="#">IoT</a></li>
+                                    <li> <a href="#">Private 5G Network</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="depth"><span>사업실적</span><i></i></a>
+                                <ul class="lnbSub">
+                                    <li><a href="#">클라우드</a></li>
+                                    <li><a href="#">연구개발과제</a></li>
+                                    <li><a href="#">기타주요사업</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <script>
+            $(function () {
+                $(".header").addClass('fixed');
+                $('.nav .depth1 > li:nth-child(1) > a').addClass('on');
+                $('.nav .depth1 > li:nth-child(1) > a').addClass('active');
+                $('.nav .depth1 > li:nth-child(1) > .depth2 > li:nth-child(5) > a').addClass('act');
+            });
+        </script>
+        <main id="page">
+            <!-- 페이지 위치 -->
+            <section id="visual" class="subVisual business">
+                <div class="areaBox">
+                    <div class="area">
+                        <div class="location">
+                            <ul>
+                                <li> <a href="#"> <i class="home"></i></a></li>
+                                <li>회사현황</li>
+                            </ul>
+                        </div>
+                        <h2 class="visualTitle">비즈니스</h2>
+                    </div>
+                </div>
+            </section>
+            <section id="contain1" class="contain1">
+                <div class="wrap">
+                    <div class="flex">
+                        <div class="subTitle">
+                            <div class="tit">BUSINESS</div>
+                            <h3 class="title">비즈니스</h3>
+                        </div>
+                        <div class="subText">
+                            <p>이튜는 디지털 환경 구축 전문기업으로써 IT 자산을 효율적으로 관리하고 고객 조직의 성과를 극대화 하기 위해 클라우드, IT인프라 솔루션, Seamless
+                                기반의 스마트 시티, 미래지향적 연구개발, 생활밀착형 디지털 환경 등의 비즈니스를 수행하고 있습니다.
+                            </p>
+                        </div>
+                        <div class="bsns">
+                            <div class="img">
+                                <img src="../../img/bsn-tit.png" alt="이튜 비즈니스">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contain2" class="contain2">
+                <div class="wrap">
+                    <div class="title">
+                        <h4 class="tit">IEETU BUSINESS</h4>
+                    </div>
+                    <div class="flex bsnswrap">
+                        <div class="bsn">
+                            <div class="title">
+                                <div class="tit">
+                                    <img src="../../img/bsn-icon01.svg" alt="R&D">
+                                    <h4>R&D</h4>
+                                </div>
+                                <div class="txt">
+                                    <p>DX 대전환의 시대 새로운 비즈니스를 위한</p>
+                                    <b>최신 기술 연구와 서비스 상용화</b>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div class="conTitle">
+                                    <span>미래지향적</span>
+                                    <b>연구 개발</b>
+                                    <p>핵심기술 연구개발로 고객 서비스 혁신</p>
+                                </div>
+                                <div class="conText">
+                                    <ul>
+                                        <li>AI - LLM customizing</li>
+                                        <li>빅데이터 - Data Lake 구축</li>
+                                        <li>XR - VR/AR/Digital Twin</li>
+                                        <li>Web Assembly 전환</li>
+                                        <li>ZTA</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bsn">
+                            <div class="title">
+                                <div class="tit">
+                                    <img src="../../img/bsn-icon02.svg" alt="솔루션">
+                                    <h4>솔루션</h4>
+                                </div>
+                                <div class="txt">
+                                    <p>고객의 성공적인 비즈니스를 위한</p>
+                                    <b>솔루션 설치 및 지원</b>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div class="conTitle">
+                                    <span>IT인프라 ·솔루션</span>
+                                    <b>설치·운영
+                                        관리 전문</b>
+                                    <p>고객과의 상호 신뢰와 지속 가능한 발전</p>
+                                </div>
+                                <div class="conText">
+                                    <ul>
+                                        <li>네트워크 / 보안 구축 · 운영</li>
+                                        <li>보안관제</li>
+                                        <li>VDI, 망연계, 접근제어, ECM, Backup, APM
+                                            솔루션 구축 운영</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bsn">
+                            <div class="title">
+                                <div class="tit">
+                                    <img src="../../img/bsn-icon03.svg" alt="클라우드">
+                                    <h4>클라우드</h4>
+                                </div>
+                                <div class="txt">
+                                    <p>스마트 시티의 근간이 되는</p>
+                                    <b>클라우드 서비스</b>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div class="conTitle">
+                                    <span>DX 환경 구축에 맞춤</span>
+                                    <b>클라우드
+                                        서비스 제공</b>
+                                    <p>클라우드 전문기술인력 보유</p>
+                                </div>
+                                <div class="conText">
+                                    <ul>
+                                        <li>클라우드 전환(CX) 컨설팅</li>
+                                        <li>공공 클라우드 이전 및 운영</li>
+                                        <li>Private 클라우드 구축 · 운영</li>
+                                        <li>HPC 고성능 컴퓨팅 환경 구축</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bsn">
+                            <div class="title">
+                                <div class="tit">
+                                    <img src="../../img/bsn-icon04.svg" alt="스마트시티">
+                                    <h4>스마트시티</h4>
+                                </div>
+                                <div class="txt">
+                                    <p>장비상호간 완벽한 연계를 위한</p>
+                                    <b>네트워크 구축</b>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div class="conTitle">
+                                    <span>Seamless 네트워크 연동</span>
+                                    <b>Smart
+                                        City</b>
+                                    <p>강력한 보안에 기반한 네트워크
+                                        구축</p>
+                                </div>
+                                <div class="conText">
+                                    <ul>
+                                        <li>ITS 지능형 교통체계 서비스 
+                                            구축 · 운영</li>
+                                        <li>지능형 CCTV 시스템 구축</li>
+                                        <li>홈 네트워크 구축 · 관리</li>
+                                        <li>IoT 구축 · 관제</li>
+                                        <li>Private 5G network</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bsn">
+                            <div class="title">
+                                <div class="tit">
+                                    <img src="../../img/bsn-icon05.svg" alt="신사업">
+                                    <h4>신사업</h4>
+                                </div>
+                                <div class="txt">
+                                    <p>삶의 질을 올려주는</p>
+                                    <b>웰니스</b>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div class="conTitle">
+                                    <span>모두가 혜택을 누리는</span>
+                                    <b>디지털
+                                        환경</b>
+                                    <p>사람 중심의 생활 밀착형 서비스
+                                        제공</p>
+                                </div>
+                                <div class="conText">
+                                    <ul>
+                                        <li>태양광 발전소 시행 · 시공</li>
+                                        <li>드론 열화상 영상 AI 분석 O&M</li>
+                                        <li>스크린파크골프 시스템</li>
+                                        <li>혈압계, 구강호흡기 등 헬스케어</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- footer -->
+        <footer id="footer">
+            <div class="footer">
+                <div class="wrap">
+                    <div class="content">
+                        <div class="logo">
+                            <img src="../../img/logo-white.svg" alt="(주)이튜">
+                        </div>
+                        <div class="con">
+                            <p>(42250)대구광역시 수성구 알파시티1로 31길 12 </p>
+                            <p>사업자등록번호 : 514-81-66515 </p>
+                            <p>대표전화 : 053-623-1468</p>
+                            <p>팩스번호 : 053-623-1469</p>
+                            <p>이메일 : kkosoo@ieetu.com </p>
+                            <p>대표 : 김광수</p>
+                        </div>
+                    </div>
+                    <div class="copy">
+                        <p>Copyright by © kpgs</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
