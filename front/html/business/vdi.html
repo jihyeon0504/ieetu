@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(주)이튜</title>
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/layout.css">
+    <link rel="stylesheet" href="../../css/sub.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../../js/common.js"></script>
+    <!-- swiper cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.4/swiper-bundle.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.4/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="site">
+        <!-- 헤더 -->
+        <header id="header">
+            <!-- PC헤더 -->
+            <div class="header">
+                <div class="inner">
+                    <h1 class="logo"><a href="./"></a></h1>
+                    <nav class="nav">
+                        <ul class="depth1">
+                            <li><a href="#">회사현황</a>
+                                <ul class="depth2">
+                                    <li><a href="#">회사개요</a></li>
+                                    <li><a href="#">회사연혁</a></li>
+                                    <li><a href="#">인증및보유기술</a></li>
+                                    <li><a href="#">조직도</a></li>
+                                    <li><a href="#">비즈니스</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">사업분야</a>
+                                <ul class="depth2">
+                                    <li><a href="#">클라우드</a></li>
+                                    <li> <a href="#">HPC</a></li>
+                                    <li> <a href="#">VDI</a></li>
+                                    <li> <a href="#">인프라구축</a></li>
+                                    <li> <a href="#">망연계</a></li>
+                                    <li> <a href="#">시스템접근제어</a></li>
+                                    <li> <a href="#">ECM</a></li>
+                                    <li> <a href="#">백업,APM</a></li>
+                                    <li> <a href="#">방화벽,네트워크,스위치</a></li>
+                                    <li> <a href="#">IoT</a></li>
+                                    <li> <a href="#">Private 5G Network</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">사업실적</a>
+                                <ul class="depth2">
+                                    <li><a href="#">클라우드</a></li>
+                                    <li><a href="#">연구개발과제</a></li>
+                                    <li><a href="#">기타주요사업</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- 모바일헤더 -->
+            <div class="mobileHeader">
+                <h2 class="logo"><a href="#"></a></h2>
+                <div class="mBtn">
+                    <span class="bar1"></span>
+                    <span class="bar2"></span>
+                    <span class="bar3"></span>
+                </div>
+                <nav class="lnb">
+                    <div class="inner">
+                        <ul class="mlnb">
+                            <li><a href="#" class="depth"><span>회사현황</span> <i></i></a>
+                                <ul class="lnbSub">
+                                    <li><a href="#">회사개요</a></li>
+                                    <li><a href="#">회사연혁</a></li>
+                                    <li><a href="#">인증및보유기술</a></li>
+                                    <li><a href="#">조직도</a></li>
+                                    <li><a href="#">비즈니스</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="depth"><span>사업분야</span><i></i></a>
+                                <ul class="lnbSub">
+                                    <li><a href="#">클라우드</a></li>
+                                    <li> <a href="#">HPC</a></li>
+                                    <li> <a href="#">VDI</a></li>
+                                    <li> <a href="#">인프라구축</a></li>
+                                    <li> <a href="#">망연계</a></li>
+                                    <li> <a href="#">시스템접근제어</a></li>
+                                    <li> <a href="#">ECM</a></li>
+                                    <li> <a href="#">백업,APM</a></li>
+                                    <li> <a href="#">방화벽,네트워크,스위치</a></li>
+                                    <li> <a href="#">IoT</a></li>
+                                    <li> <a href="#">Private 5G Network</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="depth"><span>사업실적</span><i></i></a>
+                                <ul class="lnbSub">
+                                    <li><a href="#">클라우드</a></li>
+                                    <li><a href="#">연구개발과제</a></li>
+                                    <li><a href="#">기타주요사업</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <script>
+            $(function () {
+                $(".header").addClass('fixed');
+                $('.nav .depth1 > li:nth-child(2) > a').addClass('on');
+                $('.nav .depth1 > li:nth-child(2) > a').addClass('active');
+                $('.nav .depth1 > li:nth-child(2) > .depth2 > li:nth-child(3) > a').addClass('act');
+            });
+        </script>
+        <main id="page">
+            <!-- 페이지 위치 -->
+            <section id="visual" class="subVisual vdi">
+                <div class="areaBox">
+                    <div class="area">
+                        <div class="location">
+                            <ul>
+                                <li> <a href="#"> <i class="home"></i></a></li>
+                                <li>사업분야</li>
+                            </ul>
+                        </div>
+                        <h2 class="visualTitle">VDI</h2>
+                    </div>
+                </div>
+            </section>
+            <section id="contain1" class="contain1">
+                <div class="wrap">
+                    <div class="flex">
+                        <div class="subTitle">
+                            <div class="tit">VDI</div>
+                            <h3 class="title">VDI 서비스</h3>
+                        </div>
+                        <div class="subText">
+                            <p>이튜에서는 VDI 데스크톱 가상화 구축 및 운영에 대한 다년간의 노하우와 경험을 바탕으로 다수의 관련 프로젝트를 성공적으로 수행해 왔습니다. VDI 솔루션은 필요한 운영체제 (OS)와 응용프로그램(SW)을 클라우드 환경에서 구축  · 관리하고, 사용자들은 다양한 OS와 단말기에서도 안전하고, 편안하게 사용할 수 있는  Virtual Desktop Infrastructure 솔루션입니다. 이튜에서 설치 운영을 지원하는
+                                Dstation은 유연한 업무환경을 제공함과 동시에 강력한 보안 정책이 적용되어 스마트 워크를 넘어 하이퍼워크(Hyper Work)를 구현합니다.
+                                
+                            </p>
+                        </div>
+                        <div class="flexRow five">
+                            <div class="box">
+                                <div class="img">
+                                    <img src="../../img/business/vdi-ico01.svg" alt="클라우드 PC 인프라 구축">
+                                </div>
+                                <div class="tit blk">클라우드 PC 인프라 구축</div>
+                                <div class="txt">
+                                    <ul>
+                                        <li>수요에 따른 유지, 관리, 운영 효율 극대화</li>
+                                        <li>인프라 운영 비용 절감 및 최적화</li>
+                                        <li>기존의 물리적 PC환경과 동일한 사용   경험</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="img">
+                                    <img src="../../img/business/vdi-ico02.svg" alt="인터넷과 업무망 분리">
+                                </div>
+                                <div class="tit blk">인터넷과 업무망 분리</div>
+                                <div class="txt">
+                                    <ul>
+                                        <li>망분리를 통해 내부 시스템 격리</li>
+                                        <li>랜섬웨어, APT 등 외부공격 완전 차단</li>
+                                        <li>가상화 시스템 내 모든 통신 데이터 암호화</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="img">
+                                    <img src="../../img/business/vdi-ico03.svg" alt="메타버스 인프라 구축">
+                                </div>
+                                <div class="tit blk">메타버스 인프라 구축</div>
+                                <div class="txt">
+                                    <ul>
+                                        <li>메타버스 내에서 기존의 레거시 소프트 웨어 지원</li>
+                                        <li>다양한 단말에서 메타버스 플랫폼 운영 가능</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="img">
+                                    <img src="../../img/business/vdi-ico04.svg" alt="스마트워크&재택근무">
+                                </div>
+                                <div class="tit blk">스마트워크&재택근무</div>
+                                <div class="txt">
+                                    <ul>
+                                        <li>언제어디서나 자신의 업무 PC환경을 활용</li>
+                                        <li>실시간으로 유연한 업무 처리 가능</li>
+                                        <li>스마트한 환경 구축으로 업무 효율성 증대</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="img">
+                                    <img src="../../img/business/vdi-ico05.svg" alt="내부정보 유출방지">
+                                </div>
+                                <div class="tit blk">내부정보 유출방지</div>
+                                <div class="txt">
+                                    <ul>
+                                        <li>업무 데이터 중앙 집중 관리를 통한 자료 유출 방지</li>
+                                        <li>샐 틈 없는 정책 적용을 통해 보안 위협   완전 차단 (USB 사용 등 매체 제어, 클립보드 제어 등)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- footer -->
+        <footer id="footer">
+            <div class="footer">
+                <div class="wrap">
+                    <div class="content">
+                        <div class="logo">
+                            <img src="../../img/logo-white.svg" alt="(주)이튜">
+                        </div>
+                        <div class="con">
+                            <p>(42250)대구광역시 수성구 알파시티1로 31길 12 </p>
+                            <p>사업자등록번호 : 514-81-66515 </p>
+                            <p>대표전화 : 053-623-1468</p>
+                            <p>팩스번호 : 053-623-1469</p>
+                            <p>이메일 : kkosoo@ieetu.com </p>
+                            <p>대표 : 김광수</p>
+                        </div>
+                    </div>
+                    <div class="copy">
+                        <p>Copyright by © kpgs</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

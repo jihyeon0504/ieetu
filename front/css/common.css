@@ -43,8 +43,13 @@ button { cursor: pointer;background-color: inherit;border: none; }
 
 textarea:focus { outline: none; } 
 
+
+.grn{ color: #055C53 !important;}
+.blk{color: #000000 !important;}
+
 .tal{text-align: left !important;}
 .tar{text-align: right !important;}
+.tac{text-align: center !important;}
 
 .pd30{padding: 30px 0 !important;}
 

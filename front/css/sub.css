@@ -10,17 +10,24 @@
 
 
 
-
+/* 회사현황 */
 .summary { background: url(../img/summary.webp); } 
 .history { background: url(../img/history.webp); } 
 .skill { background: url(../img/skill.webp); } 
 .organization { background: url(../img/organization.webp); } 
 .business { background: url(../img/business.webp); } 
-
-
-
-
-
+/* 사업분야 */
+.cloud { background: url(../img/business/cloud.webp); } 
+.hpc { background: url(../img/business/HPC.webp); } 
+.vdi { background: url(../img/business/VDI.webp); } 
+.infra { background: url(../img/business/infra.webp); } 
+.network { background: url(../img/business/network.webp); } 
+.access { background: url(../img/business/access.webp); } 
+.ecm { background: url(../img/business/ECM.webp); } 
+.backup { background: url(../img/business/backup.webp); } 
+.firewall { background: url(../img/business/firewall.webp); } 
+.iot{ background: url(../img/business/IoT.webp); } 
+.private{ background: url(../img/business/private5g.webp); } 
 
 
 
@@ -32,8 +39,8 @@
 #contain1 .subTitle .tit { color: #727272; font-family: Pretendard; font-size: 18px; font-weight: 400; letter-spacing: -0.135px; } 
 #contain1 .subTitle .title { color: #000; font-family: Pretendard; font-size: 36px; font-weight: 900; letter-spacing: -0.27px; } 
 #contain1 .subTitle span { color: #727272; font-family: Pretendard; font-size: 18px; font-weight: 400; letter-spacing: -0.135px; } 
-#contain1 .subText { width: 500px; } 
-#contain1 .subText p { color: #666; text-align: center; font-family: Pretendard; font-size: 18px; font-weight: 500; line-height: 160%; letter-spacing: -0.75px; word-break: keep-all; } 
+#contain1 .subText { width: 1000px; } 
+#contain1 .subText p { color: #666; text-align: center; font-family: Pretendard; font-size: 16px; font-weight: 400; line-height: 160%; letter-spacing: -0.75px; word-break: keep-all; } 
 #contain1 .profile { width: 100%; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 50px; } 
 #contain1 .profile .title { width: 100%; text-align: center; } 
 #contain1 .profile .title .tit { color: #63C0AD; font-family: Pretendard; font-size: 30px; text-transform: uppercase; font-weight: 700; letter-spacing: -0.27px; } 
@@ -53,7 +60,7 @@
 #contain1 .orgn { width: 100%; padding: 30px; } 
 #contain1 img { width: 100%; } 
 #contain1 .bsns .img { width: 50%; margin: 0 auto; } 
-
+#contain1 .con .img { width: 50%; margin: 0 auto; } 
 
 /* contain1 - 회사연혁 */
 .history-wrap { position: relative; } 
@@ -77,11 +84,66 @@
 #contain1 .skill-wrap .item .text p { font-family: SUIT; font-size: 16px; letter-spacing: -0.75px; font-weight: 700; color: #555; } 
 
 
+
+
+/* 서비스분야 */
+#contain1 .flexRow { display: flex; flex-direction: row; align-items: center; flex-wrap: wrap; width: 100%; justify-content: center; gap: 50px; } 
+#contain1 .flexRow .box { gap: 20px; padding: 50px; background-color: #FAFFF8; display: flex; flex-direction: column; align-items: flex-start; box-shadow: 0px 10px 30px 0px rgba(51, 51, 51, 0.15); border-radius: 60px; height: 380px; width: 100%; } 
+#contain1 .flexRow.three .box { max-width: calc((100% / 3) - 100px); } 
+#contain1 .flexRow.four .box { max-width: calc((100% / 4) - 60px); padding: 50px 20px; border-radius: 30px; margin: 0 auto; } 
+#contain1 .flexRow.five { gap: 20px; flex-wrap: nowrap; } 
+#contain1 .flexRow.five .box { max-width:260px; height: 430px; padding: 50px 20px; border-radius: 30px; margin: 0 auto; } 
+#contain1 .flexRow.yellow .box { background-color: #F3EFD6; height: auto; } 
+#contain1 .flexRow.white .box { background-color: #fff; height: auto; border-radius: 30px; margin: 0 auto; padding: 0; gap: 0; } 
+#contain1 .flexRow.white .box .tit { padding: 20px; background-color: #055C53; display: flex; flex-direction: row; align-items: center; gap: 10px; } 
+#contain1 .flexRow.white .box .tit .img { width: 40px; height: 40px; } 
+#contain1 .flexRow.white .box .tit h5 { color: #fff; letter-spacing: -0.1px; font-family: SUIT; font-size: 18px; } 
+#contain1 .flexRow.white .box .text { padding: 30px 0; height: 130px; display: flex; align-items: center; } 
+#contain1 .flexRow.white .box .text p { font-size: 15px; text-align: center; word-break: keep-all; line-height: 1.6; letter-spacing: -0.75px; font-family: SUITE; font-weight: 600; color: #555; } 
+
+#contain1 .flexRow.bold .box { border: 3px solid #055C53; background-color: #ECF3F2; height: 450px; padding: 50px 30px; } 
+#contain1 .flexRow.bold .box .tit { display: flex; flex-direction: row; align-items: center; gap: 10px; } 
+#contain1 .flexRow.bold .box .tit h5 { color: #055C53; } 
+#contain1 .flexRow.bold .box .text { width: 100%; display: flex; flex-direction: column; align-items: flex-start; gap: 10px; } 
+#contain1 .flexRow.bold .box .text b { color: #00927E; font-family: SUITE; font-size: 16px; font-weight: 900; line-height: 150%; letter-spacing: -0.75px; } 
+#contain1 .flexRow.bold .box .text p { color: #333; font-family: SUITE; font-size: 16px; font-weight: 400; line-height: 150%; letter-spacing: -0.75px; } 
+
+
+
+
+
+#contain1 .flexRow .box .img { width: 50px; height: 50px; } 
+#contain1 .flexRow .box .tit { color: #00423A; font-size: 20px; font-weight: 900; letter-spacing: -0.75px; font-family: SUITE; width: 100%; border-radius: 30px 30px 0 0; } 
+#contain1 .flexRow.five .tit { letter-spacing: -0.1px; font-family: SUITE; font-size: 18px; } 
+#contain1 .flexRow.yellow .tit { color: #000; } 
+#contain1 .flexRow .box .txt li { color: #333; font-family: SUITE; font-size: 14px; font-style: normal; font-weight: 400; line-height: 1.6; letter-spacing: -0.5px; word-break: keep-all; padding: 10px 0; } 
+#contain1 .flexRow.row .box { height: auto; padding: 30px 50px; border-radius: 30px; gap: 0; } 
+#contain1 .flexRow.row .box .txt { color: #333; font-family: SUITE; font-size: 16px; font-style: normal; font-weight: 400; line-height: 1.6; letter-spacing: -0.5px; word-break: keep-all; } 
+#contain1 .flexRow.row .box .colorBox { margin-top: 0; } 
+#contain1 .text { width: 50%; margin: 0 auto; } 
+#contain1 .text h4 { color: #555; font-family: SUITE; font-size: 20px; line-height: 1.8; font-weight: 700; word-break: keep-all; text-align: center; letter-spacing: -1px; } 
+
+
+
+
+
+
+
 /*contain2*/
 #contain2 { width: 100%; position: relative; padding: 100px 0; background-color: #f4fcf8; } 
 #contain2 .wrap { max-width: 1440px; width: 100%; margin: 0 auto; } 
 #contain2 .flex { display: flex; flex-direction: column; align-items: center; gap: 50px; } 
+#contain2 .title { display: flex; flex-direction: column; gap: 16px; } 
 #contain2 .title .tit { color: #000; font-family: SUIT; font-size: 24px; text-transform: uppercase; font-weight: 800; letter-spacing: -0.8px; } 
+#contain2 .title .txt { max-width: 500px; } 
+#contain2 .title p { color: #555; font-family: SUIT; font-size: 16px; font-weight: 500; letter-spacing: -1px; line-height: 1.6; word-break: keep-all; } 
+#contain2 .flexRow { display: flex; flex-direction: row; } 
+#contain2 .flexRow.circle { flex-wrap: wrap; justify-content: center; gap: 50px; } 
+#contain2 .flexRow .crc { border-radius: 50%; padding: 20px; background-color: #fff; box-shadow: 5px 5px 10px 0px #CBCBCB, -5px -5px 10px 0px #FAFBFF; width: 230px; height: 230px; display: flex; flex-direction: column; align-items: center; gap: 10px; justify-content: center; } 
+#contain2 .flexRow .crc .tit { font-size: 20px; max-width: 100px; font-family: SUITE; font-weight: 900; text-align: center; word-break: keep-all; color: #055C53; letter-spacing: -0.75px; } 
+#contain2 .flexRow .crc .txt { font-size: 14px; font-family: SUITE; font-weight: 500; letter-spacing: -0.75px; word-break: keep-all; text-align: center; line-height: 1.4; color: #555; } 
+#contain2 .text h3 { font-size: 24px; letter-spacing: -0.75px; font-family: SUITE; font-weight: 900; line-height: 1.6; margin: 50px 0; } 
+
 
 /* contain2 - 인증및보유기술 */
 #contain2 .skl-wrap { display: flex; flex-direction: row; align-items: center; flex-wrap: wrap; gap: 10px; padding: 30px 0; justify-content: center; } 
@@ -90,8 +152,8 @@
 #contain2 .skl .con .title { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; width: 100%; } 
 #contain2 .skl .con .title .icon { width: 30px; height:30px; } 
 #contain2 .skl .con .title .icon img { width: 100%; height: 100%; } 
-#contain2 .skl .con .title .tit { font-size: 14px; letter-spacing: -1px; font-weight: 500; font-family: SUIT; } 
-#contain2 .skl .con .num { font-size: 36px; font-weight: 900; font-family: SUIT; } 
+#contain2 .skl .con .title .tit { font-size: 14px; letter-spacing: -1px; font-weight: 500; font-family: SUITE; } 
+#contain2 .skl .con .num { font-size: 36px; font-weight: 900; font-family: SUITE; } 
 #contain2 .skl .con .num b { color: #63C0AD; } 
 
 /* contain2 - 비즈니스 */
@@ -106,41 +168,69 @@
 #contain2 .bsn .title .txt b { font-size: 24px; color: #fff; font-weight: 900; word-break: keep-all; } 
 #contain2 .bsn .content { width: 50%; padding:40px 30px; background-color: #fff; display: flex; flex-direction: row; align-items: center; gap: 30px; } 
 #contain2 .bsn .content .conTitle { gap: 20px; display: flex; flex-direction: column; align-items: flex-start; } 
-#contain2 .bsn .content .conTitle span { font-family: SUIT; color:#00423A; font-size: 20px; letter-spacing: -0.75px; font-weight: 600; } 
-#contain2 .bsn .content .conTitle b { font-family: SUIT; color:#00423A; font-size: 40px; letter-spacing: -0.75px; font-weight: 900; word-break: keep-all; } 
-#contain2 .bsn .content .conTitle p { font-family: SUIT; color:#727272; font-size: 15px; letter-spacing: -1px; font-weight: 600; word-break: keep-all; } 
+#contain2 .bsn .content .conTitle span { font-family: SUITE; color:#00423A; font-size: 20px; letter-spacing: -0.75px; font-weight: 600; } 
+#contain2 .bsn .content .conTitle b { font-family: SUITE; color:#00423A; font-size: 40px; letter-spacing: -0.75px; font-weight: 900; word-break: keep-all; } 
+#contain2 .bsn .content .conTitle p { font-family: SUITE; color:#727272; font-size: 15px; letter-spacing: -1px; font-weight: 600; word-break: keep-all; } 
 #contain2 .bsn .content .conText ul { display: flex; flex-direction: column; align-items: flex-start; gap: 5px; } 
 #contain2 .bsn .content .conText ul li { font-size: 14px; color: #555; line-height: 1.6; letter-spacing: -0.75px; position: relative; display: flex; align-items: center; gap: 10px; word-break: keep-all; } 
 #contain2 .bsn .content .conText ul li::before { content: ''; width: 3px; height: 3px; background-color: #555; border-radius: 50%; } 
 
+.colorBox { padding: 20px; border-radius: 15px; margin: 20px 0; } 
+.colorBox.green { background-color: #055C53; } 
+.colorBox.gray { background-color: #333; } 
+.colorBox.lightgreen { background-color: #417042; } 
+.colorBox .text { display: flex; flex-direction: row; align-items: center; gap: 10px; justify-content: center; } 
+.colorBox .text b { font-size: 20px; font-weight: 900; color: #fff; } 
+.colorBox .text p { font-size: 15px; color: #fff; letter-spacing: -0.75px; word-break: keep-all; line-height: 1.6; } 
 
 
-
-
-
-
-
-
-
-
+/*contain3*/
+#contain3 { width: 100%; position: relative; padding: 100px 0; background-color: #f5f5f5; } 
+#contain3 .wrap { max-width: 1440px; width: 100%; margin: 0 auto; } 
+#contain3 .flex { display: flex; flex-direction: column; align-items: center; gap: 50px; } 
+#contain3 .title { display: flex; flex-direction: column; gap: 16px; } 
+#contain3 .flexRow { display: flex; flex-direction: row; justify-content: center; gap: 50px; margin: 50px 0; } 
+#contain3 .flexRow .con { border-radius: 300px; background: linear-gradient(135deg, rgba(0, 0, 0, 0.40) 0%, rgba(255, 255, 255, 0.40) 100%), #494949; background-blend-mode: soft-light, normal; box-shadow: 30px 30px 60px 0px #C9C9C9; width: 250px; height: 250px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 0 30px; word-break: keep-all; text-align: center; } 
+#contain3 .flexRow .con h3 { font-size: 24px; color: #fff; line-height: 1.6; font-weight: 900; font-family: SUITE; letter-spacing: -0.75px; } 
+#contain3 .flexRow .contentwrap { display: flex; position: relative; gap: 50px; } 
+#contain3 .flexRow .contentwrap::before { content: ''; background: url(../img/business/arrow-left.svg)no-repeat 50% 50%; width: 150px; height: 200px; background-size: contain; } 
+#contain3 .flexRow .contentwrap::after { content: ''; background: url(../img/business/arrow-right.svg)no-repeat 50% 50%; width: 150px; height: 200px; background-size: contain; } 
+#contain3 .flexRow .content { display: flex; flex-direction: column; align-items: center; justify-content: space-evenly; gap: 50px; } 
+#contain3 .flexRow .content .cons { display: flex; flex-direction: row; align-items: center; gap: 20px; position: relative; } 
+#contain3 .flexRow .content .cons::before { content: ''; background: url(../img/business/circle.svg)no-repeat 50% 50%; width: 300px; position: absolute; height: 200px; top: 50%; left: 50%; transform: translate(-50%, -50%); background-size: contain; filter: opacity(0.5); } 
+#contain3 .flexRow .content .cons p { font-size: 16px; font-weight: 800; letter-spacing: -0.75px; color: #555; } 
 
 
 @media screen and (max-width:1440px){
  .subVisual .areaBox .area { padding-left: 10px; } 
  #contain1 .profile { padding: 0 10px; } 
  #contain1 .orgn { padding: 0px; } 
+ #contain1 .flexRow { gap: 20px; } 
+ #contain1 .flexRow.five { padding: 0 10px; } 
+ #contain1 .flexRow.three .box { max-width: calc((100% / 3) - 40px); } 
+ #contain1 .flexRow.white .box .text { height: auto; } 
  #contain2 .title { padding: 0 10px; } 
  #contain2 .text { padding: 0 10px; } 
  #contain2 .content { flex-direction: column; } 
  #contain2 .content .img { width: 100%; } 
  #contain2 .content { padding: 0 10px; } 
+.colorBox { margin: 20px 10px; } 
  .history-wrap { padding: 0 10px; } 
  .history-wrap:before { left: 285px; } 
  .history-wrap .year:before { display: none; } 
+ #contain3 .flexRow { flex-direction: column; align-items: center; } 
+ #contain3 .flexRow .contentwrap { flex-direction: column; align-items: center; } 
+ #contain3 .flexRow .contentwrap::before { width: 100px; height: 100px; transform: rotate(90deg); } 
+ #contain3 .flexRow .contentwrap::after { width: 100px; height: 100px; transform: rotate(90deg); } 
+ #contain3 .flexRow .content { gap: 100px; } 
  }
  @media screen and (max-width:1200px){
  .subVisual .areaBox .area .visualTitle { font-size: 36px; } 
  #contain1 .subText { width: 100%; padding: 0 20px; } 
+ #contain1 .flexRow { flex-direction: column; } 
+ #contain1 .flexRow.three .box { max-width: 70%; height: auto; } 
+ #contain1 .flexRow.four .box { max-width: 70%; height: auto; } 
+ #contain1 .flexRow.five .box { max-width: 70%; height: auto; } 
  .history-wrap .detail-history > li { flex-direction: column; gap: 10px; } 
  .history-wrap:before { left: 287px; } 
 .history-wrap .detail-history > li .date { padding-left: 0; } 
@@ -154,6 +244,7 @@
  }
  @media screen and (max-width:768px){
  #contain1 .bsns .img { width: 90%; } 
+ #contain1 .con .img{ width: 100%; } 
  #contain2 .brandbox .box-wrap { flex-direction: column; gap: 30px; } 
  #contain2 .brandbox .box-wrap .tit { max-width: 100%; text-align: center; font-size: 20px; } 
  #contain2 .brandbox .box-wrap .text { align-items: center; } 

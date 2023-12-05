@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(주)이튜</title>
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/layout.css">
+    <link rel="stylesheet" href="../../css/sub.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../../js/common.js"></script>
+    <!-- swiper cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.4/swiper-bundle.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.4/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="site">
+        <!-- 헤더 -->
+        <header id="header">
+            <!-- PC헤더 -->
+            <div class="header">
+                <div class="inner">
+                    <h1 class="logo"><a href="./"></a></h1>
+                    <nav class="nav">
+                        <ul class="depth1">
+                            <li><a href="#">회사현황</a>
+                                <ul class="depth2">
+                                    <li><a href="#">회사개요</a></li>
+                                    <li><a href="#">회사연혁</a></li>
+                                    <li><a href="#">인증및보유기술</a></li>
+                                    <li><a href="#">조직도</a></li>
+                                    <li><a href="#">비즈니스</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">사업분야</a>
+                                <ul class="depth2">
+                                    <li><a href="#">클라우드</a></li>
+                                    <li> <a href="#">HPC</a></li>
+                                    <li> <a href="#">VDI</a></li>
+                                    <li> <a href="#">인프라구축</a></li>
+                                    <li> <a href="#">망연계</a></li>
+                                    <li> <a href="#">시스템접근제어</a></li>
+                                    <li> <a href="#">ECM</a></li>
+                                    <li> <a href="#">백업,APM</a></li>
+                                    <li> <a href="#">방화벽,네트워크,스위치</a></li>
+                                    <li> <a href="#">IoT</a></li>
+                                    <li> <a href="#">Private 5G Network</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">사업실적</a>
+                                <ul class="depth2">
+                                    <li><a href="#">클라우드</a></li>
+                                    <li><a href="#">연구개발과제</a></li>
+                                    <li><a href="#">기타주요사업</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- 모바일헤더 -->
+            <div class="mobileHeader">
+                <h2 class="logo"><a href="#"></a></h2>
+                <div class="mBtn">
+                    <span class="bar1"></span>
+                    <span class="bar2"></span>
+                    <span class="bar3"></span>
+                </div>
+                <nav class="lnb">
+                    <div class="inner">
+                        <ul class="mlnb">
+                            <li><a href="#" class="depth"><span>회사현황</span> <i></i></a>
+                                <ul class="lnbSub">
+                                    <li><a href="#">회사개요</a></li>
+                                    <li><a href="#">회사연혁</a></li>
+                                    <li><a href="#">인증및보유기술</a></li>
+                                    <li><a href="#">조직도</a></li>
+                                    <li><a href="#">비즈니스</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="depth"><span>사업분야</span><i></i></a>
+                                <ul class="lnbSub">
+                                    <li><a href="#">클라우드</a></li>
+                                    <li> <a href="#">HPC</a></li>
+                                    <li> <a href="#">VDI</a></li>
+                                    <li> <a href="#">인프라구축</a></li>
+                                    <li> <a href="#">망연계</a></li>
+                                    <li> <a href="#">시스템접근제어</a></li>
+                                    <li> <a href="#">ECM</a></li>
+                                    <li> <a href="#">백업,APM</a></li>
+                                    <li> <a href="#">방화벽,네트워크,스위치</a></li>
+                                    <li> <a href="#">IoT</a></li>
+                                    <li> <a href="#">Private 5G Network</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="depth"><span>사업실적</span><i></i></a>
+                                <ul class="lnbSub">
+                                    <li><a href="#">클라우드</a></li>
+                                    <li><a href="#">연구개발과제</a></li>
+                                    <li><a href="#">기타주요사업</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <script>
+            $(function () {
+                $(".header").addClass('fixed');
+                $('.nav .depth1 > li:nth-child(2) > a').addClass('on');
+                $('.nav .depth1 > li:nth-child(2) > a').addClass('active');
+                $('.nav .depth1 > li:nth-child(2) > .depth2 > li:nth-child(7) > a').addClass('act');
+            });
+        </script>
+        <main id="page">
+            <!-- 페이지 위치 -->
+            <section id="visual" class="subVisual ecm">
+                <div class="areaBox">
+                    <div class="area">
+                        <div class="location">
+                            <ul>
+                                <li> <a href="#"> <i class="home"></i></a></li>
+                                <li>사업분야</li>
+                            </ul>
+                        </div>
+                        <h2 class="visualTitle">ECM 서비스</h2>
+                    </div>
+                </div>
+            </section>
+            <section id="contain1" class="contain1">
+                <div class="wrap">
+                    <div class="flex">
+                        <div class="subTitle">
+                            <div class="tit">ECM</div>
+                            <h3 class="title">ECM 서비스</h3>
+                        </div>
+                        <div class="subText">
+                            <p>이튜는 국내 1위 ICT 통합 플랫폼 솔루션 전문기업인 INZENT사의 XTORM  문서중앙화솔루션(ECM) 관련 기술을 지원하고 있습니다.
+                            </p>
+                        </div>
+                        <div class="flexRow three white">
+                            <div class="box">
+                                <div class="tit">
+                                    <div class="img">
+                                        <img src="../../img/business/ecm-ico01.svg" alt="안정성">
+                                    </div>
+                                    <h5>안정성</h5>
+                                </div>
+                                <div class="text">
+                                    <p>국내 대형기관 구축 ·운영,
+                                        신뢰성, 안정성 검증 보장</p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="tit">
+                                    <div class="img">
+                                        <img src="../../img/business/ecm-ico02.svg" alt="성능">
+                                    </div>
+                                    <h5>성능</h5>
+                                </div>
+                                <div class="text">
+                                    <p>다양한 성능 관련 기능,
+                                        대용량 트랜잭션 처리,
+                                        BMT 사례 검증</p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="tit">
+                                    <div class="img">
+                                        <img src="../../img/business/ecm-ico03.svg" alt="확장성, 유연성">
+                                    </div>
+                                    <h5>확장성, 유연성</h5>
+                                </div>
+                                <div class="text">
+                                    <p>이중화, 부하분산 지원,
+                                        DAS, NAS, SAN 등 다양한
+                                        장비 연동 및 확장구성 지원</p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="tit">
+                                    <div class="img">
+                                        <img src="../../img/business/ecm-ico04.svg" alt="보안">
+                                    </div>
+                                    <h5>보안</h5>
+                                </div>
+                                <div class="text">
+                                    <p>공개 키 기반 암/복호화 지원,
+                                        Third Party 보안 솔루션 접목 용이</p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="tit">
+                                    <div class="img">
+                                        <img src="../../img/business/ecm-ico05.svg" alt="편의성">
+                                    </div>
+                                    <h5>편의성</h5>
+                                </div>
+                                <div class="text">
+                                    <p>표준화 개발 툴, 템플릿 활용,
+                                        국제/산업표준 준수로
+                                        이기종 시스템 연계 용이</p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="tit">
+                                    <div class="img">
+                                        <img src="../../img/business/ecm-ico06.svg" alt="유지보수">
+                                    </div>
+                                    <h5>유지보수</h5>
+                                </div>
+                                <div class="text">
+                                    <p>콘텐츠 관리 노하우를 가진
+                                        전문 기술진 보유, 성능,
+                                        튜닝 지원용 유틸리티 제공</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- footer -->
+        <footer id="footer">
+            <div class="footer">
+                <div class="wrap">
+                    <div class="content">
+                        <div class="logo">
+                            <img src="../../img/logo-white.svg" alt="(주)이튜">
+                        </div>
+                        <div class="con">
+                            <p>(42250)대구광역시 수성구 알파시티1로 31길 12 </p>
+                            <p>사업자등록번호 : 514-81-66515 </p>
+                            <p>대표전화 : 053-623-1468</p>
+                            <p>팩스번호 : 053-623-1469</p>
+                            <p>이메일 : kkosoo@ieetu.com </p>
+                            <p>대표 : 김광수</p>
+                        </div>
+                    </div>
+                    <div class="copy">
+                        <p>Copyright by © kpgs</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

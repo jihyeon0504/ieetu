@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(주)이튜</title>
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/layout.css">
+    <link rel="stylesheet" href="../../css/sub.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../../js/common.js"></script>
+    <!-- swiper cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.4/swiper-bundle.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.4/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="site">
+        <!-- 헤더 -->
+        <header id="header">
+            <!-- PC헤더 -->
+            <div class="header">
+                <div class="inner">
+                    <h1 class="logo"><a href="./"></a></h1>
+                    <nav class="nav">
+                        <ul class="depth1">
+                            <li><a href="#">회사현황</a>
+                                <ul class="depth2">
+                                    <li><a href="#">회사개요</a></li>
+                                    <li><a href="#">회사연혁</a></li>
+                                    <li><a href="#">인증및보유기술</a></li>
+                                    <li><a href="#">조직도</a></li>
+                                    <li><a href="#">비즈니스</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">사업분야</a>
+                                <ul class="depth2">
+                                    <li><a href="#">클라우드</a></li>
+                                    <li> <a href="#">HPC</a></li>
+                                    <li> <a href="#">VDI</a></li>
+                                    <li> <a href="#">인프라구축</a></li>
+                                    <li> <a href="#">망연계</a></li>
+                                    <li> <a href="#">시스템접근제어</a></li>
+                                    <li> <a href="#">ECM</a></li>
+                                    <li> <a href="#">백업,APM</a></li>
+                                    <li> <a href="#">방화벽,네트워크,스위치</a></li>
+                                    <li> <a href="#">IoT</a></li>
+                                    <li> <a href="#">Private 5G Network</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">사업실적</a>
+                                <ul class="depth2">
+                                    <li><a href="#">클라우드</a></li>
+                                    <li><a href="#">연구개발과제</a></li>
+                                    <li><a href="#">기타주요사업</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- 모바일헤더 -->
+            <div class="mobileHeader">
+                <h2 class="logo"><a href="#"></a></h2>
+                <div class="mBtn">
+                    <span class="bar1"></span>
+                    <span class="bar2"></span>
+                    <span class="bar3"></span>
+                </div>
+                <nav class="lnb">
+                    <div class="inner">
+                        <ul class="mlnb">
+                            <li><a href="#" class="depth"><span>회사현황</span> <i></i></a>
+                                <ul class="lnbSub">
+                                    <li><a href="#">회사개요</a></li>
+                                    <li><a href="#">회사연혁</a></li>
+                                    <li><a href="#">인증및보유기술</a></li>
+                                    <li><a href="#">조직도</a></li>
+                                    <li><a href="#">비즈니스</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="depth"><span>사업분야</span><i></i></a>
+                                <ul class="lnbSub">
+                                    <li><a href="#">클라우드</a></li>
+                                    <li> <a href="#">HPC</a></li>
+                                    <li> <a href="#">VDI</a></li>
+                                    <li> <a href="#">인프라구축</a></li>
+                                    <li> <a href="#">망연계</a></li>
+                                    <li> <a href="#">시스템접근제어</a></li>
+                                    <li> <a href="#">ECM</a></li>
+                                    <li> <a href="#">백업,APM</a></li>
+                                    <li> <a href="#">방화벽,네트워크,스위치</a></li>
+                                    <li> <a href="#">IoT</a></li>
+                                    <li> <a href="#">Private 5G Network</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="depth"><span>사업실적</span><i></i></a>
+                                <ul class="lnbSub">
+                                    <li><a href="#">클라우드</a></li>
+                                    <li><a href="#">연구개발과제</a></li>
+                                    <li><a href="#">기타주요사업</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <script>
+            $(function () {
+                $(".header").addClass('fixed');
+                $('.nav .depth1 > li:nth-child(2) > a').addClass('on');
+                $('.nav .depth1 > li:nth-child(2) > a').addClass('active');
+                $('.nav .depth1 > li:nth-child(2) > .depth2 > li:nth-child(2) > a').addClass('act');
+            });
+        </script>
+        <main id="page">
+            <!-- 페이지 위치 -->
+            <section id="visual" class="subVisual hpc">
+                <div class="areaBox">
+                    <div class="area">
+                        <div class="location">
+                            <ul>
+                                <li> <a href="#"> <i class="home"></i></a></li>
+                                <li>사업분야</li>
+                            </ul>
+                        </div>
+                        <h2 class="visualTitle">HPC</h2>
+                    </div>
+                </div>
+            </section>
+            <section id="contain1" class="contain1">
+                <div class="wrap">
+                    <div class="flex">
+                        <div class="subTitle">
+                            <div class="tit">HPC</div>
+                            <h3 class="title">HPC 서비스</h3>
+                        </div>
+                        <div class="subText">
+                            <p>이튜는 대구 · 경북 지역 최초의 HPC 구축 업체입니다. HPC 시스템은 매우 복잡하고 다양한 요소가 상호 작용하며 구축하기 위해서는 전문적인 지식과 충분한
+                                자원을 필요로 하며 이 전에 유사한
+                                시스템을 구축한 경험이 있어야 합니다. HPC 구축에는 구축 중, 완료 후 발생할 수 있는 문제를 예측하고 해결하는 기술과 역량을 보유하고 전문 인적 자원이
+                                풍부한 이튜가 최적입니다.
+                            </p>
+                        </div>
+                        <div class="con">
+                            <div class="img">
+                                <img src="../../img/business/hpc-img.png" alt="hpc서비스">
+                            </div>
+                        </div>
+                        <div class="flexRow tree yellow">
+                            <div class="box">
+                                <div class="img">
+                                    <img src="../../img/business/hpc-ico01.svg" alt="통합(All-In-One)솔루션">
+                                </div>
+                                <div class="tit">통합(All-In-One)솔루션</div>
+                                <div class="txt">
+                                    <ul>
+                                        <li>HPC 운영 및 사용에 필요한 다양한
+                                            서비스(모니터링, 분석, 계정, 장애)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="img">
+                                    <img src="../../img/business/hpc-ico01.svg" alt="HPC 리소스 Visualization">
+                                </div>
+                                <div class="tit">HPC 리소스 Visualization</div>
+                                <div class="txt">
+                                    <ul>
+                                        <li>HPC 활용에 대한 정량화된 데이터 수집 및 분석 기반의 시스템 성능 향상</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="img">
+                                    <img src="../../img/business/hpc-ico01.svg" alt="HPC 활용 극대화">
+                                </div>
+                                <div class="tit">HPC 활용 극대화</div>
+                                <div class="txt">
+                                    <ul>
+                                        <li> HPC의 전체적인 자원 정보를 주기적으로 수집 및 분석 Dashboard 구성</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- footer -->
+        <footer id="footer">
+            <div class="footer">
+                <div class="wrap">
+                    <div class="content">
+                        <div class="logo">
+                            <img src="../../img/logo-white.svg" alt="(주)이튜">
+                        </div>
+                        <div class="con">
+                            <p>(42250)대구광역시 수성구 알파시티1로 31길 12 </p>
+                            <p>사업자등록번호 : 514-81-66515 </p>
+                            <p>대표전화 : 053-623-1468</p>
+                            <p>팩스번호 : 053-623-1469</p>
+                            <p>이메일 : kkosoo@ieetu.com </p>
+                            <p>대표 : 김광수</p>
+                        </div>
+                    </div>
+                    <div class="copy">
+                        <p>Copyright by © kpgs</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
