@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(주)이튜</title>
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/layout.css">
+    <link rel="stylesheet" href="../../css/sub.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../../js/common.js"></script>
+    <!-- swiper cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.4/swiper-bundle.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.4/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="site">
+        <!-- 헤더 -->
+        <header id="header">
+            <!-- PC헤더 -->
+            <div class="header">
+                <div class="inner">
+                    <h1 class="logo"><a href="./"></a></h1>
+                    <nav class="nav">
+                        <ul class="depth1">
+                            <li><a href="#">회사현황</a>
+                                <ul class="depth2">
+                                    <li><a href="#">회사개요</a></li>
+                                    <li><a href="#">회사연혁</a></li>
+                                    <li><a href="#">인증및보유기술</a></li>
+                                    <li><a href="#">조직도</a></li>
+                                    <li><a href="#">비즈니스</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">사업분야</a>
+                                <ul class="depth2">
+                                    <li><a href="#">클라우드</a></li>
+                                    <li> <a href="#">HPC</a></li>
+                                    <li> <a href="#">VDI</a></li>
+                                    <li> <a href="#">인프라구축</a></li>
+                                    <li> <a href="#">망연계</a></li>
+                                    <li> <a href="#">시스템접근제어</a></li>
+                                    <li> <a href="#">ECM</a></li>
+                                    <li> <a href="#">백업,APM</a></li>
+                                    <li> <a href="#">방화벽,네트워크,스위치</a></li>
+                                    <li> <a href="#">IoT</a></li>
+                                    <li> <a href="#">Private 5G Network</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">사업실적</a>
+                                <ul class="depth2">
+                                    <li><a href="#">클라우드</a></li>
+                                    <li><a href="#">연구개발과제</a></li>
+                                    <li><a href="#">기타주요사업</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- 모바일헤더 -->
+            <div class="mobileHeader">
+                <h2 class="logo"><a href="#"></a></h2>
+                <div class="mBtn">
+                    <span class="bar1"></span>
+                    <span class="bar2"></span>
+                    <span class="bar3"></span>
+                </div>
+                <nav class="lnb">
+                    <div class="inner">
+                        <ul class="mlnb">
+                            <li><a href="#" class="depth"><span>회사현황</span> <i></i></a>
+                                <ul class="lnbSub">
+                                    <li><a href="#">회사개요</a></li>
+                                    <li><a href="#">회사연혁</a></li>
+                                    <li><a href="#">인증및보유기술</a></li>
+                                    <li><a href="#">조직도</a></li>
+                                    <li><a href="#">비즈니스</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="depth"><span>사업분야</span><i></i></a>
+                                <ul class="lnbSub">
+                                    <li><a href="#">클라우드</a></li>
+                                    <li> <a href="#">HPC</a></li>
+                                    <li> <a href="#">VDI</a></li>
+                                    <li> <a href="#">인프라구축</a></li>
+                                    <li> <a href="#">망연계</a></li>
+                                    <li> <a href="#">시스템접근제어</a></li>
+                                    <li> <a href="#">ECM</a></li>
+                                    <li> <a href="#">백업,APM</a></li>
+                                    <li> <a href="#">방화벽,네트워크,스위치</a></li>
+                                    <li> <a href="#">IoT</a></li>
+                                    <li> <a href="#">Private 5G Network</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="depth"><span>사업실적</span><i></i></a>
+                                <ul class="lnbSub">
+                                    <li><a href="#">클라우드</a></li>
+                                    <li><a href="#">연구개발과제</a></li>
+                                    <li><a href="#">기타주요사업</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <script>
+            $(function () {
+                $(".header").addClass('fixed');
+                $('.nav .depth1 > li:nth-child(3) > a').addClass('on');
+                $('.nav .depth1 > li:nth-child(3) > a').addClass('active');
+                $('.nav .depth1 > li:nth-child(3) > .depth2 > li:nth-child(3) > a').addClass('act');
+            });
+        </script>
+        <main id="page">
+            <!-- 페이지 위치 -->
+            <section id="visual" class="subVisual othBsnPrf">
+                <div class="areaBox">
+                    <div class="area">
+                        <div class="location">
+                            <ul>
+                                <li> <a href="#"> <i class="home"></i></a></li>
+                                <li>사업실적</li>
+                            </ul>
+                        </div>
+                        <h2 class="visualTitle">기타주요사업</h2>
+                    </div>
+                </div>
+            </section>
+            <section id="contain1" class="contain1">
+                <div class="wrap">
+                    <div class="flex">
+                        <div class="subTitle">
+                            <div class="tit">사업실적</div>
+                            <h3 class="title">기타주요사업</h3>
+                        </div>
+                        <div class="con">
+                            <ol class="history-wrap performance">
+                                <li>
+                                    <p class="year">20<b>22</b></p>
+                                    <ul class="detail-history">
+                                        <li>
+                                            <p class="date">2022. 06 ~ 2022. 12</p>
+                                            <div class="desc">
+                                                <b>2022년 공공부문 이용
+                                                    SaaS 개발·검증</b>
+                                                <p>과제 및 사업 통합평가관리시스템</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p class="date">2022. 06 ~ 2022. 11</p>
+                                            <div class="desc">
+                                                <b>인공지능 학습용 데이터 구축 사업</b>
+                                                <p>38번 로봇 동작 제어 데이터</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p class="date">2022. 06 ~ 2022. 12</p>
+                                            <div class="desc">
+                                                <b>2022년 블록체인
+                                                    공공분야 확산사업</b>
+                                                <p>블록체인 기반 배움이력 통합관리 플랫폼 구축</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p class="date">2022 .05 ~ 2022. 12</p>
+                                            <div class="desc">
+                                                <b>AI융합 국민안전 확보 및 신속대응 지원 실증랩 구축.운영 사업</b>
+                                                <p>스마트시티 기반 활용 AI융합 국민안전 솔루션 </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="year">20<b>21</b></p>
+                                    <ul class="detail-history">
+                                        <li>
+                                            <p class="date">2021. 07 ~ 2021. 12</p>
+                                            <div class="desc">
+                                                <b>인공지능 학습용 데이터 구축 사업</b>
+                                                <p>(대구) 이륜자동차 안전 위험 시설물 데이터</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p class="date">2021. 06 ~ 2021. 12</p>
+                                            <div class="desc">
+                                                <b>2021년 블록체인 선도 시범사업</b>
+                                                <p>블록체인 기반 3D 의료기기 제조공정
+                                                    관리 플랫폼 구축</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p class="date">2021. 05 ~ 2021. 11</p>
+                                            <div class="desc">
+                                                <b>AR/MR 콘텐츠 실증 지원 과제</b>
+                                                <p>5G 기반 MR(혼합현실, Mixted Reality)
+                                                    비대면 실감 교육 플랫폼 및 콘텐츠 실증</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="year">20<b>20</b></p>
+                                    <ul class="detail-history">
+                                        <li>
+                                            <p class="date">2020. 08 ~ 2021. 12</p>
+                                            <div class="desc">
+                                                <b>AI융합 국민안전확보 및
+                                                    신속대응지원 실증랩 구축,운영사업</b>
+                                                <p>스마트시티 기반 활용 AI융합 국민안전 실증랩</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p class="date">2020.07 ~ 2022.12</p>
+                                            <div class="desc">
+                                                <b>스마트시티 혁신성장동력 프로젝트</b>
+                                                <p>스마트 시티 서비스 고도화를 위한
+                                                    Use Case형 실증</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p class="date">2020. 05 ~ 2021. 04</p>
+                                            <div class="desc">
+                                                <b>2020년도 사내벤처
+                                                    육성프로그램</b>
+                                                <p>실내체감형 스크린 파크골프 시스템</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p class="date">2020. 04 ~ 2021. 12</p>
+                                            <div class="desc">
+                                                <b>지역SW서비스사업화 지원사업</b>
+                                                <p>AI기반의 발달장애 아동에 특화된 인지재활
+                                                    훈련 SW개발 및 서비스 실증</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p class="date">2020. 03 ~ 2021. 12</p>
+                                            <div class="desc">
+                                                <b>대경권 지역산업기반 ICT
+                                                    융합기술 고도화 지원사업</b>
+                                                <p>생체신호 기반 웨어러블 실시간 혈압계 개발</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="year">20<b>19</b></p>
+                                    <ul class="detail-history">
+                                        <li>
+                                            <p class="date">2019. 08 ~ 2021. 08</p>
+                                            <div class="desc">
+                                                <b>규제자유특구혁신사업육성</b>
+                                                <p>알고리즘 중심의 의료 웰니스 정보 서비스,
+                                                    기기개발 플랫폼 개발</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p class="date">2019. 08 ~ 2021. 03</p>
+                                            <div class="desc">
+                                                <b>혁신성장동력 실증지원사업</b>
+                                                <p>ICT기반 가상현실 어린이 안전 스포츠 교실</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="year">20<b>18</b></p>
+                                    <ul class="detail-history">
+                                        <li>
+                                            <p class="date">2018. 05 ~ 2020. 05</p>
+                                            <div class="desc">
+                                                <b>기술혁신개발사업</b>
+                                                <p>센서기반 실시간 혈압측정
+                                                    스마트 헬스케어 시스템 개발</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- footer -->
+        <footer id="footer">
+            <div class="footer">
+                <div class="wrap">
+                    <div class="content">
+                        <div class="logo">
+                            <img src="../../img/logo-white.svg" alt="(주)이튜">
+                        </div>
+                        <div class="con">
+                            <p>(42250)대구광역시 수성구 알파시티1로 31길 12 </p>
+                            <p>사업자등록번호 : 514-81-66515 </p>
+                            <p>대표전화 : 053-623-1468</p>
+                            <p>팩스번호 : 053-623-1469</p>
+                            <p>이메일 : kkosoo@ieetu.com </p>
+                            <p>대표 : 김광수</p>
+                        </div>
+                    </div>
+                    <div class="copy">
+                        <p>Copyright by © kpgs</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
