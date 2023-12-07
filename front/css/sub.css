@@ -113,7 +113,7 @@
 #contain1 .flexRow.white .box { background-color: #fff; height: auto;  margin: 0 auto; padding: 0; gap: 0; } 
 #contain1 .flexRow.white .box .tit { padding: 20px; background-color: #055C53; display: flex; flex-direction: row; align-items: center; gap: 10px; } 
 #contain1 .flexRow.white .box .tit .img { width: 40px; height: 40px; } 
-#contain1 .flexRow.white .box .tit h5 { color: #fff; letter-spacing: -0.1px; font-family: SUIT; font-size: 18px; } 
+#contain1 .flexRow.white .box .tit h5 { color: #fff; letter-spacing: -0.1px; font-family: SUITE; font-size: 18px; } 
 #contain1 .flexRow.white .box .text { padding: 30px 10px; height: 130px; display: flex; align-items: center;margin: 0 auto; } 
 #contain1 .flexRow.white .box .text p { font-size: 15px; text-align: center; word-break: keep-all; line-height: 1.6; letter-spacing: -0.75px; font-family: SUITE; font-weight: 600; color: #555; } 
 
