@@ -66,6 +66,7 @@
 #contain1 .screen .img { width: 100%; } 
 #contain1 .screen .img img { width: 100%; } 
 #contain1 .orgn { width: 100%; padding: 30px; } 
+#contain1 .orgn .img{margin: 0 auto; max-width: 1000px;} 
 #contain1 img { width: 100%; } 
 #contain1 .bsns .img { width: 50%; margin: 0 auto; } 
 #contain1 .con .img { width: 50%; margin: 0 auto; } 
