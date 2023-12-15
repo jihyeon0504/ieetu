@@ -1,5 +1,4 @@
-@charset "utf-8"; 
-.subVisual { position: relative; width: 100%; display: block; height: 600px; background-repeat: no-repeat; background-position: 50% 50%; background-size: cover; } 
+@charset "utf-8"; .subVisual { position: relative; width: 100%; display: block; height: 600px; background-repeat: no-repeat; background-position: 50% 50%; background-size: cover; } 
 .subVisual .areaBox { display: block; position: relative; width: 100%; height: 100%; } 
 .subVisual .areaBox .area { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; max-width: 1440px; width: 100%; margin: 0 auto; height: 100%; gap: 20px; padding-top: 100px; } 
 .subVisual .areaBox .area .location ul { display: flex; flex-direction: row; align-items: center; gap: 5px; } 
@@ -30,9 +29,9 @@
 .iot { background: url(../img/business/IoT.webp); } 
 .private { background: url(../img/business/private5g.webp); } 
 /* 사업실적 */
-.cloudBsnPrf{ background: url(../img/performance/cloudBsnPrf.webp); } 
-.rsrchPrf{ background: url(../img/performance/rsrchPrf.webp); } 
-.othBsnPrf{ background: url(../img/performance/othBsnPrf.webp); } 
+.cloudBsnPrf { background: url(../img/performance/cloudBsnPrf.webp); } 
+.rsrchPrf { background: url(../img/performance/rsrchPrf.webp); } 
+.othBsnPrf { background: url(../img/performance/othBsnPrf.webp); } 
 
 
 
@@ -66,7 +65,7 @@
 #contain1 .screen .img { width: 100%; } 
 #contain1 .screen .img img { width: 100%; } 
 #contain1 .orgn { width: 100%; padding: 30px; } 
-#contain1 .orgn .img{margin: 0 auto; max-width: 1000px;} 
+#contain1 .orgn .img { margin: 0 auto; max-width: 1000px; } 
 #contain1 img { width: 100%; } 
 #contain1 .bsns .img { width: 50%; margin: 0 auto; } 
 #contain1 .con .img { width: 50%; margin: 0 auto; } 
@@ -74,22 +73,22 @@
 /* contain1 - 회사연혁 */
 .history-wrap { position: relative; } 
 .history-wrap:before { content: ""; height: 100%; width: 4px; border-radius: 6px; position: absolute; top: 12px; left: 278px; background: linear-gradient( to bottom, #CCCCCC1A, #ccc); } 
-.history-wrap > li { display: flex; gap: 135px; }
+.history-wrap > li { display: flex; gap: 135px; } 
 .history-wrap .year { font-family: SUIT; font-size: 22px; letter-spacing: 0; width: 270px; position: relative; font-weight: 900; color: #B7D0CD; } 
-.performance  .year{font-size: 30px;color: #ddd;}
+.performance .year { font-size: 30px; color: #ddd; } 
 .history-wrap .year b { color: #63C0AD; } 
-.performance  .year b{color: #727272;}
+.performance .year b { color: #727272; } 
 .history-wrap .year:before { content: ""; width: 144px; height: 2px; background-color: #63C0AD; position: absolute; top: 12px; right: 0; } 
 .history-wrap .year:after { content: ""; width: 20px; height: 20px; background-color: #fff; border: 5px solid #63C0AD; position: absolute; top: 2px; left: 100%; box-sizing: border-box; border-radius: 100%; z-index: 10; } 
-.performance  .year:before{background-color: #727272;}
-.performance  .year:after{border: 5px solid #727272;}
+.performance .year:before { background-color: #727272; } 
+.performance .year:after { border: 5px solid #727272; } 
 .history-wrap .detail-history { margin-top: 2px; flex: 1; } 
 .history-wrap .detail-history > li { display: flex; gap: 42px; } 
-.performance .detail-history > li{display: flex;flex-direction: column;gap: 20px;}
+.performance .detail-history > li { display: flex; flex-direction: column; gap: 20px; } 
 .history-wrap .detail-history > li .date { font-family: SUITE; font-size: 18px; font-weight: 500; color: #00423A; width: 135px; padding-left: 34px; position: relative; margin-top: 4px; font-weight: 900; } 
-.performance .detail-history > li .date { font-family: SUITE; font-size: 18px; color: #000;  position: relative;  font-weight: 900; width: 100%;padding-left: 0;} 
-.performance .detail-history > li .desc{display: flex;flex-direction: column;gap: 10px;}
-.performance .detail-history > li .desc b{font-size: 18px;font-family: SUITE; font-size: 18px; font-weight: 800; color: #555;}
+.performance .detail-history > li .date { font-family: SUITE; font-size: 18px; color: #000; position: relative; font-weight: 900; width: 100%; padding-left: 0; } 
+.performance .detail-history > li .desc { display: flex; flex-direction: column; gap: 10px; } 
+.performance .detail-history > li .desc b { font-size: 18px; font-family: SUITE; font-size: 18px; font-weight: 800; color: #555; } 
 .history-wrap .detail-history > li .desc p { font-size: 16px; letter-spacing: -0.05em; line-height: 1.6; } 
 .history-wrap > li + li { margin-top: 160px; } 
 .detail-history > li + li { margin-top: 40px; } 
@@ -107,15 +106,15 @@
 #contain1 .flexRow { display: flex; flex-direction: row; align-items: center; flex-wrap: wrap; width: 100%; justify-content: center; gap: 50px; } 
 #contain1 .flexRow .box { gap: 20px; padding: 50px; background-color: #FAFFF8; display: flex; flex-direction: column; align-items: flex-start; box-shadow: 0px 10px 30px 0px rgba(51, 51, 51, 0.15); height: 380px; width: 100%; } 
 #contain1 .flexRow.three .box { max-width: calc((100% / 3) - 100px); } 
-#contain1 .flexRow.four .box { max-width: calc((100% / 4) - 60px); padding: 50px 20px;  margin: 0 auto; } 
+#contain1 .flexRow.four .box { max-width: calc((100% / 4) - 60px); padding: 50px 20px; margin: 0 auto; } 
 #contain1 .flexRow.five { gap: 20px; flex-wrap: nowrap; } 
-#contain1 .flexRow.five .box { max-width:260px; height: 430px; padding: 50px 20px;  margin: 0 auto; } 
+#contain1 .flexRow.five .box { max-width:260px; height: 430px; padding: 50px 20px; margin: 0 auto; } 
 #contain1 .flexRow.yellow .box { background-color: #F3EFD6; height: auto; } 
-#contain1 .flexRow.white .box { background-color: #fff; height: auto;  margin: 0 auto; padding: 0; gap: 0; } 
+#contain1 .flexRow.white .box { background-color: #fff; height: auto; margin: 0 auto; padding: 0; gap: 0; } 
 #contain1 .flexRow.white .box .tit { padding: 20px; background-color: #055C53; display: flex; flex-direction: row; align-items: center; gap: 10px; } 
 #contain1 .flexRow.white .box .tit .img { width: 40px; height: 40px; } 
 #contain1 .flexRow.white .box .tit h5 { color: #fff; letter-spacing: -0.1px; font-family: SUITE; font-size: 18px; } 
-#contain1 .flexRow.white .box .text { padding: 30px 10px; height: 130px; display: flex; align-items: center;margin: 0 auto; } 
+#contain1 .flexRow.white .box .text { padding: 30px 10px; height: 130px; display: flex; align-items: center; margin: 0 auto; } 
 #contain1 .flexRow.white .box .text p { font-size: 15px; text-align: center; word-break: keep-all; line-height: 1.6; letter-spacing: -0.75px; font-family: SUITE; font-weight: 600; color: #555; } 
 
 #contain1 .flexRow.bold .box { border: 2px solid #055C53; background-color: #ECF3F2; height: 450px; padding: 50px 30px; } 
@@ -125,9 +124,9 @@
 #contain1 .flexRow.bold .box .text b { color: #00927E; font-family: SUITE; font-size: 16px; font-weight: 900; line-height: 150%; letter-spacing: -0.75px; } 
 #contain1 .flexRow.bold .box .text p { color: #333; font-family: SUITE; font-size: 16px; font-weight: 400; line-height: 150%; letter-spacing: -0.75px; } 
 
-#contain1 .flexRow.gray .box { border: 2px solid #ddd; background-color: #FFFFFF; padding: 50px 30px; height: auto;} 
-#contain1 .flexRow.gray .box .tit{ color: #000; font-family: SUITE; font-size: 20px; font-weight: 900; line-height: 150%; letter-spacing: -0.75px;} 
-#contain1 .flexRow.gray .box .text p{color: #333; font-family: SUITE; font-size: 16px; font-weight: 400; line-height: 150%; letter-spacing: -0.75px; word-break: keep-all;}
+#contain1 .flexRow.gray .box { border: 2px solid #ddd; background-color: #FFFFFF; padding: 50px 30px; height: auto; } 
+#contain1 .flexRow.gray .box .tit { color: #000; font-family: SUITE; font-size: 20px; font-weight: 900; line-height: 150%; letter-spacing: -0.75px; } 
+#contain1 .flexRow.gray .box .text p { color: #333; font-family: SUITE; font-size: 16px; font-weight: 400; line-height: 150%; letter-spacing: -0.75px; word-break: keep-all; } 
 
 
 
@@ -138,7 +137,7 @@
 #contain1 .flexRow .box .txt li { color: #333; font-family: SUITE; font-size: 14px; font-style: normal; font-weight: 400; line-height: 1.6; letter-spacing: -0.5px; word-break: keep-all; padding: 10px 0; } 
 #contain1 .flexRow.row .box { height: auto; padding: 30px 50px; border-radius: 30px; gap: 0; } 
 #contain1 .flexRow.row .box .txt { color: #333; font-family: SUITE; font-size: 16px; font-style: normal; font-weight: 400; line-height: 1.6; letter-spacing: -0.5px; word-break: keep-all; } 
-#contain1 .flexRow.row .box .colorBox { margin-top: 0; }
+#contain1 .flexRow.row .box .colorBox { margin-top: 0; } 
 #contain1 .text h4 { color: #555; font-family: SUITE; font-size: 20px; line-height: 1.8; font-weight: 700; word-break: keep-all; text-align: center; letter-spacing: -1px; } 
 
 
@@ -201,6 +200,22 @@
 .colorBox .text b { font-size: 20px; font-weight: 900; color: #fff; } 
 .colorBox .text p { font-size: 15px; color: #fff; letter-spacing: -0.75px; word-break: keep-all; line-height: 1.6; } 
 
+/* 관계사 */
+#contain2.contain { width: 100%; position: relative; background-color: #ffffff; display: flex; flex-direction: column; align-items: center; gap: 50px; } 
+#contain2 .flex .subTitle { display: flex; flex-direction: column; align-items: center; gap: 15px; } 
+#contain2 .subTitle .tit { color: #727272; font-family: Pretendard; font-size: 18px; font-weight: 400; letter-spacing: -0.135px; text-transform: uppercase; } 
+#contain2 .subTitle .title { color: #000; font-family: Pretendard; font-size: 36px; font-weight: 900; letter-spacing: -0.27px; } 
+#contain2 .row { width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; } 
+#contain2 .row .com { width: calc(100% / 3); height: 640px; border-right: 1px solid #ddd; background-color: #fff; background-size: cover; filter: opacity(0.5); transition: 0.3s; } 
+#contain2 .row .com:hover { filter: opacity(1); background-color: #f5f5f5;} 
+#contain2 .row .com:last-child { border-right: none; } 
+#contain2 .row .com1 { background:url(../img/aff-company-01.png) no-repeat 50% 50%; } 
+#contain2 .row .com2 { background:url(../img/aff-company-02.png) no-repeat 50% 50%; } 
+#contain2 .row .com3 { background:url(../img/aff-company-03.png) no-repeat 50% 50%; } 
+#contain2 .row .com a { display: block; width: 100%; height: 100%; } 
+#contain2 .row .com a .text { width: 100%; height: 100%; display: flex; flex-direction: row; align-items: flex-end; padding: 50px; justify-content: space-between; } 
+#contain2 .row .com a .text p { font-size: 18px; font-family: SUITE; font-weight: 700; letter-spacing: -0.75px; word-break: keep-all; color: #333333; line-height: 50px; } 
+#contain2 .row .com a .text i { width: 50px; height: 50px; background: url(../img/icon-arrow.svg) no-repeat 50% 50%; background-size: contain; } 
 
 /*contain3*/
 #contain3 { width: 100%; position: relative; padding: 100px 0; background-color: #f5f5f5; } 
@@ -227,6 +242,7 @@
  #contain1 .flexRow.five { padding: 0 10px; } 
  #contain1 .flexRow.three .box { max-width: calc((100% / 3) - 40px); } 
  #contain1 .flexRow.white .box .text { height: auto; } 
+ #contain1 img{padding: 0 10px;}
  #contain2 .title { padding: 0 10px; } 
  #contain2 .text { padding: 0 10px; } 
  #contain2 .content { flex-direction: column; } 
@@ -252,6 +268,9 @@
  .history-wrap .detail-history > li { flex-direction: column; gap: 10px; } 
  .history-wrap:before { left: 287px; } 
 .history-wrap .detail-history > li .date { padding-left: 0; } 
+#contain2 .row{flex-direction: column;}
+#contain2 .row .com{width: 100%;height: 350px;background-position-y: 60%;border-right: none;border-bottom: 1px solid #ddd;}
+#contain2 .row .com:last-child{border-bottom: none;}
  }
  @media screen and (max-width:1024px){
  #case #contain2 .caseWrap .caseBox { width: calc((100% - 20px) / 2); } 
@@ -273,6 +292,8 @@
  .history-wrap .year:after { width: 12px; height: 12px; border-width: 3px; top: 14px; } 
 .history-wrap .detail-history { margin-top: 10px; } 
 #contain2 .bsn .content { flex-direction: column; align-items: flex-start; } 
+#contain2 .row .com a .text{padding: 50px 30px;}
+#contain2 .row .com a .text p{font-size: 14px;}
  }
  @media screen and (max-width:375px){
  #contain1 .subTitle .tit { font-size: 14px; } 

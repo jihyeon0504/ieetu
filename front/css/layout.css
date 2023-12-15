@@ -21,7 +21,7 @@
 #header .nav .depth2wrap { width: 100%; text-align: center; position: absolute; height: 250px; opacity: 0; transition: opacity .5s ease; display: none; } 
 #header .nav .depth2 { width: 100%; text-align: center; position: absolute; height: 250px; opacity: 0; transition: opacity .5s ease; display: none; } 
 #header .header.on .nav .depth2wrap { display: flex; flex-direction: row; opacity: 1; } 
-#header .header.on .nav .depth2 { display: flex; flex-direction: column; opacity: 0; } 
+#header .header.on .nav .depth2 { display: flex; flex-direction: column; opacity: 1; } 
 #header .header.on .nav .depth2wrap > .depth2 { display: flex; opacity:0; width: 50%; position: relative; } 
 #header .nav .depth2 > li { width: 100%; } 
 #header .nav .depth2 > li > a { font-size: 14px; padding: 15px 0; display: block; letter-spacing: -0.75px; font-weight: 500; word-break: keep-all; } 
@@ -31,12 +31,10 @@
 #header .nav .depth2 a:hover,
 #header .nav a.on,
 #header .nav a.active { color: #00927E; } 
+#header .nav .depth1 > li > a.active.on{ color: #00927E; } 
 #header .nav .depth1 > li:hover > a:after,
 #header .nav a.on:after,
 #header.slide-open .nav a.active:after { width: 100%; } 
-#header .header.on .nav .depth1 > li:hover > .depth2wrap { opacity: 1; } 
-#header .header.on .nav .depth1 > li:hover > .depth2 { opacity: 1; } 
-#header .header.on .nav .depth1 > li:hover > .depth2wrap > .depth2 { opacity: 1; } 
 #header .mobileHeader { display: none; } 
 
 
