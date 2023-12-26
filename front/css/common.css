@@ -21,7 +21,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section { display: block; } 
 * { box-sizing: border-box;margin: 0;padding: 0;} 
 *:focus { outline: none } 
-body { line-height: 1;margin: 0; padding: 0; font-size: 0; font-family: pretendard;} 
+body { line-height: 1;margin: 0; padding: 0; font-size: 0; font-family: 'Pretendard', pretendard;} 
 ol, ul { list-style: none; } 
 blockquote, q { quotes: none; } 
 blockquote:before, blockquote:after, 
@@ -80,3 +80,14 @@ textarea:focus { outline: none; }
 .w130{width: 130px !important;}
 .w140{width: 140px !important;}
 .w150{width: 150px !important;}
+.w400{width: 400px !important;}
+.w500{width: 500px !important;}
+.w600{width: 600px !important;}
+
+
+.mw400{max-width: 400px !important;}
+.mw500{max-width: 500px !important;}
+.mw600{max-width: 600px !important;}
+.mw1000{max-width: 1000px !important;}
+.mw1440{max-width: 1440px !important;}
+.mw100p{max-width: 100% !important;}
