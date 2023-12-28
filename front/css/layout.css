@@ -17,7 +17,7 @@
 #header .header.fixed .nav .depth1 > li > a { color: #333; } 
 #header .header.fixed .nav .depth1 > li > a { color: #000; } 
 #header .header.on .nav .depth1 > li > a { color: #000; } 
-#header .nav a:after { content: ""; width: 0; height: 2px; position: absolute; bottom: 0; left: 0; background-color: #00927E; transition: width .3s ease; } 
+#header .nav a:after { content: ""; width: 0; height: 2px; position: absolute; bottom: 0; left: 0; background-color: #00cfb3; transition: width .3s ease; } 
 #header .nav .depth2wrap { width: 100%; text-align: center; position: absolute; height: 250px; opacity: 0; transition: opacity .5s ease; display: none; } 
 #header .nav .depth2 { width: 100%; text-align: center; position: absolute; height: 250px; opacity: 0; transition: opacity .5s ease; display: none; } 
 #header .header.on .nav .depth2wrap { display: flex; flex-direction: row; opacity: 1; } 
@@ -26,12 +26,12 @@
 #header .nav .depth2 > li { width: 100%; } 
 #header .nav .depth2 > li > a { font-size: 14px; padding: 15px 0; display: block; letter-spacing: -0.75px; font-weight: 500; word-break: keep-all; } 
 #header .nav .depth2 > li > a:hover,
-#header .nav .depth2 > li > a.act { background-color: #f3f3f3; } 
+#header .nav .depth2 > li > a.act { background-color: #f3f3f3;color: #00cfb3; } 
 #header .nav .depth1 > li:hover > a,
 #header .nav .depth2 a:hover,
 #header .nav a.on,
-#header .nav a.active { color: #00927E; } 
-#header .nav .depth1 > li > a.active.on{ color: #00927E; } 
+#header .nav a.active { color: #00cfb3; } 
+#header .nav .depth1 > li > a.active.on{ color: #00cfb3; } 
 #header .nav .depth1 > li:hover > a:after,
 #header .nav a.on:after,
 #header.slide-open .nav a.active:after { width: 100%; } 
@@ -175,7 +175,7 @@
 #footer .footer .wrap { width: 100%; padding: 50px 0; max-width: 1440px; margin: 0 auto; } 
 #footer .footer .content { display: flex; flex-direction: column; align-items: flex-start; gap: 20px; } 
 #footer .footer .logo { display: flex; flex-direction: row; align-items: center; } 
-#footer .footer .logo img { width: 40px; height: 40px; object-fit: contain; filter: opacity(0.5); } 
+#footer .footer .logo img { width: 60px; height: 40px; object-fit: contain; filter: opacity(0.5); } 
 #footer .footer .logo span { font-size: 20px; color: #9a9b9c; letter-spacing: -1px; font-weight: 600; } 
 #footer .footer .content .con { display: flex; flex-direction: row; align-items: center; justify-content: flex-start; gap: 10px } 
 #footer .footer .content .con p { font-size: 13px; color: #ddd; letter-spacing: -0.75px; } 
