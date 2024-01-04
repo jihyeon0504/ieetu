@@ -3,11 +3,11 @@
 .subVisual .areaBox { display: block; position: relative; width: 100%; height: 100%; } 
 .subVisual .areaBox .area { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; max-width: 1440px; width: 100%; margin: 0 auto; height: 100%; gap: 20px; padding-top: 100px; } 
 .subVisual .areaBox .area .location ul { display: flex; flex-direction: row; align-items: center; gap: 5px; } 
-.subVisual .areaBox .area .location ul li { font-family: Pretendard; letter-spacing:-0.75px; font-size: 18px; color: #fff; display: flex; flex-direction: row; align-items: center; gap: 5px; } 
+.subVisual .areaBox .area .location ul li { letter-spacing:-0.75px; font-size: 18px; color: #fff; display: flex; flex-direction: row; align-items: center; gap: 5px; } 
 .subVisual .areaBox .area .location ul li .home { width: 20px; height: 20px; display: block; background: url(../img/Home.svg)no-repeat; background-size:contain; display: block; } 
 .subVisual .areaBox .area .location ul li::after { content: ''; width: 20px; height: 20px; background: url(../img/right.svg) no-repeat; background-size:contain; display: block; } 
 .subVisual .areaBox .area .location ul li:last-child:after { display: none; } 
-.subVisual .areaBox .area .visualTitle { color: #FFF; font-family: SUITE; font-size: 50px; font-weight: 900; letter-spacing: -0.45px; } 
+.subVisual .areaBox .area .visualTitle { color: #FFF; font-family: "SUITE";font-size: 50px; font-weight: 900; letter-spacing: -0.45px; } 
 
 
 
@@ -48,17 +48,17 @@
 #contain1 .wrap { max-width: 1440px; width: 100%; margin: 0 auto; } 
 #contain1 .flex { display: flex; flex-direction: column; align-items: center; gap: 50px; } 
 #contain1 .subTitle { display: flex; flex-direction: column; align-items: center; gap: 15px; } 
-#contain1 .subTitle .tit { color: #727272; font-family: Pretendard; font-size: 18px; font-weight: 400; letter-spacing: -0.135px; text-align: center; line-height: 1.4; } 
+#contain1 .subTitle .tit { color: #727272;  font-size: 18px; font-weight: 400; letter-spacing: -0.135px; text-align: center; line-height: 1.4; } 
 #contain1 .subTitle .tit.upper { text-transform: uppercase; } 
 #contain1 .subTitle .tit b { font-weight: 800; } 
-#contain1 .subTitle h5 { font-family: SUITE; font-size: 18px; letter-spacing: -0.75px; } 
-#contain1 .subTitle .title { color: #000; font-family: Pretendard; font-size: 36px; font-weight: 900; letter-spacing: -0.27px; } 
-#contain1 .subTitle span { color: #727272; font-family: Pretendard; font-size: 18px; font-weight: 400; letter-spacing: -0.135px; } 
+#contain1 .subTitle h5 { font-family: "SUITE"; font-size: 18px; letter-spacing: -0.75px; } 
+#contain1 .subTitle .title { color: #000;  font-size: 36px; font-weight: 900; letter-spacing: -0.27px; } 
+#contain1 .subTitle span { color: #727272; font-size: 18px; font-weight: 400; letter-spacing: -0.135px; } 
 #contain1 .subText { width: 1000px; } 
-#contain1 .subText p { color: #666; text-align: center; font-family: Pretendard; font-size: 16px; font-weight: 400; line-height: 160%; letter-spacing: -0.75px; word-break: keep-all; } 
+#contain1 .subText p { color: #666; text-align: center;  font-size: 16px; font-weight: 400; line-height: 160%; letter-spacing: -0.75px; word-break: keep-all; } 
 #contain1 .profile { width: 100%; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 50px; } 
 #contain1 .profile .title { width: 100%; text-align: center; } 
-#contain1 .profile .title .tit { color: #63C0AD; font-family: Pretendard; font-size: 30px; text-transform: uppercase; font-weight: 700; letter-spacing: -0.27px; } 
+#contain1 .profile .title .tit { color: #63C0AD;font-size: 30px; text-transform: uppercase; font-weight: 700; letter-spacing: -0.27px; } 
 #contain1 .profile .table { width: 100%; max-width: 1000px; margin: 0 auto; } 
 #contain1 .profile .table .tbl { width: 100%; } 
 #contain1 .profile .table .tbl table { width: 100%; border-collapse: collapse; border-top: 1px solid #c5e0da; border-bottom: 1px solid #c5e0da; } 
@@ -83,7 +83,7 @@
 .history-wrap { position: relative; } 
 .history-wrap:before { content: ""; height: 100%; width: 4px; border-radius: 6px; position: absolute; top: 12px; left: 278px; background: linear-gradient( to bottom, #CCCCCC1A, #ccc); } 
 .history-wrap > li { display: flex; gap: 135px; } 
-.history-wrap .year { font-family: SUITE; font-size: 22px; letter-spacing: 0; width: 270px; position: relative; font-weight: 900; color: #B7D0CD; } 
+.history-wrap .year { font-family: "SUITE"; font-size: 22px; letter-spacing: 0; width: 270px; position: relative; font-weight: 900; color: #B7D0CD; } 
 .performance .year { font-size: 30px; color: #ddd; } 
 .history-wrap .year b { color: #63C0AD; } 
 .performance .year b { color: #727272; } 
@@ -94,10 +94,10 @@
 .history-wrap .detail-history { margin-top: 2px; flex: 1; } 
 .history-wrap .detail-history > li { display: flex; gap: 42px; } 
 .performance .detail-history > li { display: flex; flex-direction: column; gap: 20px; } 
-.history-wrap .detail-history > li .date { font-family: SUITE; font-size: 18px; font-weight: 500; color: #00423A; width: 135px; padding-left: 34px; position: relative; margin-top: 4px; font-weight: 900; } 
-.performance .detail-history > li .date { font-family: SUITE; font-size: 18px; color: #000; position: relative; font-weight: 900; width: 100%; padding-left: 0; } 
+.history-wrap .detail-history > li .date { font-family: "SUITE"; font-size: 18px; font-weight: 500; color: #00423A; width: 135px; padding-left: 34px; position: relative; margin-top: 4px; font-weight: 900; } 
+.performance .detail-history > li .date { font-family: "SUITE"; font-size: 18px; color: #000; position: relative; font-weight: 900; width: 100%; padding-left: 0; } 
 .performance .detail-history > li .desc { display: flex; flex-direction: column; gap: 10px; } 
-.performance .detail-history > li .desc b { font-size: 18px; font-family: SUITE; font-size: 18px; font-weight: 800; color: #555; } 
+.performance .detail-history > li .desc b { font-size: 18px; font-family: "SUITE"; font-size: 18px; font-weight: 800; color: #555; } 
 .history-wrap .detail-history > li .desc p { font-size: 16px; letter-spacing: -0.05em; line-height: 1.6; } 
 .history-wrap > li + li { margin-top: 160px; } 
 .detail-history > li + li { margin-top: 40px; } 
@@ -106,9 +106,9 @@
 /* contain1 - 인증및보유기술 */
 #contain1 .skill-wrap { width: 100%; display: flex; flex-direction: row; align-items: center; flex-wrap: wrap; gap: 20px; justify-content: center; } 
 #contain1 .skill-wrap .item { display: flex; flex-direction: column; align-items: center; gap: 20px; } 
-#contain1 .skill-wrap .item .img { width: 200px; background-color: #fff; padding: 10px; box-shadow: 0px 18px 88px -4px rgb(0 0 0 / 14%), 0px 8px 28px -6px rgb(0 0 0 / 12%); border-radius: 15px; border: 1px solid #dddddd; } 
+#contain1 .skill-wrap .item .img { width: 200px; background-color: #fff; padding: 5px; box-shadow: 0px 18px 88px -4px rgb(0 0 0 / 14%), 0px 8px 28px -6px rgb(0 0 0 / 12%); } 
 #contain1 .skill-wrap .item .img img { width: 100%; object-fit: contain; } 
-#contain1 .skill-wrap .item .text p { font-family: SUITE; font-size: 16px; letter-spacing: -0.75px; font-weight: 700; color: #555; } 
+#contain1 .skill-wrap .item .text p { font-family: "SUITE"; font-size: 16px; letter-spacing: -0.75px; font-weight: 700; color: #555; } 
 
 
 
@@ -123,32 +123,32 @@
 #contain1 .flexRow.white .box { background-color: #fff; height: auto; margin: 0 auto; padding: 0; gap: 0; } 
 #contain1 .flexRow.white .box .tit { padding: 20px; background-color: #055C53; display: flex; flex-direction: row; align-items: center; gap: 10px; } 
 #contain1 .flexRow.white .box .tit .img { width: 40px; height: 40px; } 
-#contain1 .flexRow.white .box .tit h5 { color: #fff; letter-spacing: -0.1px; font-family: SUITE; font-size: 18px; } 
+#contain1 .flexRow.white .box .tit h5 { color: #fff; letter-spacing: -0.1px; font-family: "SUITE"; font-size: 18px; } 
 #contain1 .flexRow.white .box .text { padding: 30px 10px; height: 130px; display: flex; align-items: center; margin: 0 auto; } 
-#contain1 .flexRow.white .box .text p { font-size: 15px; text-align: center; word-break: keep-all; line-height: 1.6; letter-spacing: -0.75px; font-family: SUITE; font-weight: 600; color: #555; } 
+#contain1 .flexRow.white .box .text p { font-size: 15px; text-align: center; word-break: keep-all; line-height: 1.6; letter-spacing: -0.75px; font-family: "SUITE"; font-weight: 600; color: #555; } 
 
 #contain1 .flexRow.bold .box { border: 2px solid #055C53; background-color: #ECF3F2; height: 450px; padding: 50px 30px; } 
 #contain1 .flexRow.bold .box .tit { display: flex; flex-direction: row; align-items: center; gap: 10px; } 
 #contain1 .flexRow.bold .box .tit h5 { color: #055C53; } 
 #contain1 .flexRow.bold .box .text { width: 100%; display: flex; flex-direction: column; align-items: flex-start; gap: 10px; } 
-#contain1 .flexRow.bold .box .text b { color: #00927E; font-family: SUITE; font-size: 16px; font-weight: 900; line-height: 150%; letter-spacing: -0.75px; } 
-#contain1 .flexRow.bold .box .text p { color: #333; font-family: SUITE; font-size: 16px; font-weight: 400; line-height: 150%; letter-spacing: -0.75px; } 
+#contain1 .flexRow.bold .box .text b { color: #00927E; font-family: "SUITE";font-size: 16px; font-weight: 900; line-height: 150%; letter-spacing: -0.75px; } 
+#contain1 .flexRow.bold .box .text p { color: #333; font-family: "SUITE";font-size: 16px; font-weight: 400; line-height: 150%; letter-spacing: -0.75px; } 
 
 #contain1 .flexRow.gray .box { border: 2px solid #ddd; background-color: #FFFFFF; padding: 50px 30px; height: auto; } 
-#contain1 .flexRow.gray .box .tit { color: #000; font-family: SUITE; font-size: 20px; font-weight: 900; line-height: 150%; letter-spacing: -0.75px; } 
-#contain1 .flexRow.gray .box .text p { color: #333; font-family: SUITE; font-size: 16px; font-weight: 400; line-height: 150%; letter-spacing: -0.75px; word-break: keep-all; } 
+#contain1 .flexRow.gray .box .tit { color: #000; font-family: "SUITE"; font-size: 20px; font-weight: 900; line-height: 150%; letter-spacing: -0.75px; } 
+#contain1 .flexRow.gray .box .text p { color: #333; font-family: "SUITE";font-size: 16px; font-weight: 400; line-height: 150%; letter-spacing: -0.75px; word-break: keep-all; } 
 
 
 
 #contain1 .flexRow .box .img { width: 50px; height: 50px; } 
-#contain1 .flexRow .box .tit { color: #00423A; font-size: 20px; font-weight: 900; letter-spacing: -0.75px; font-family: SUITE; width: 100%; border-radius: 30px 30px 0 0; } 
-#contain1 .flexRow.five .tit { letter-spacing: -0.1px; font-family: SUITE; font-size: 18px; } 
+#contain1 .flexRow .box .tit { color: #00423A; font-size: 20px; font-weight: 900; letter-spacing: -0.75px; font-family: "SUITE"; width: 100%; border-radius: 30px 30px 0 0; } 
+#contain1 .flexRow.five .tit { letter-spacing: -0.1px; font-family: "SUITE";font-size: 18px; } 
 #contain1 .flexRow.yellow .tit { color: #000; } 
-#contain1 .flexRow .box .txt li { color: #333; font-family: SUITE; font-size: 14px; font-style: normal; font-weight: 400; line-height: 1.6; letter-spacing: -0.5px; word-break: keep-all; padding: 10px 0; } 
+#contain1 .flexRow .box .txt li { color: #333; font-family: "SUITE"; font-size: 14px; font-style: normal; font-weight: 400; line-height: 1.6; letter-spacing: -0.5px; word-break: keep-all; padding: 10px 0; } 
 #contain1 .flexRow.row .box { height: auto; padding: 30px 50px; border-radius: 30px; gap: 0; } 
-#contain1 .flexRow.row .box .txt { color: #333; font-family: SUITE; font-size: 16px; font-style: normal; font-weight: 400; line-height: 1.6; letter-spacing: -0.5px; word-break: keep-all; } 
+#contain1 .flexRow.row .box .txt { color: #333; font-family: "SUITE"; font-size: 16px; font-style: normal; font-weight: 400; line-height: 1.6; letter-spacing: -0.5px; word-break: keep-all; } 
 #contain1 .flexRow.row .box .colorBox { margin-top: 0; } 
-#contain1 .text h4 { color: #555; font-family: SUITE; font-size: 20px; line-height: 1.8; font-weight: 700; word-break: keep-all; text-align: center; letter-spacing: -1px; } 
+#contain1 .text h4 { color: #555; font-family: "SUITE"; font-size: 20px; line-height: 1.8; font-weight: 700; word-break: keep-all; text-align: center; letter-spacing: -1px; } 
 
 
 
@@ -164,16 +164,16 @@
 #contain1 .server .img { width: 500px; height: 500px; } 
 #contain1 .server .img img { width: 100%; height: 100%; object-fit: contain; } 
 #contain1 .server .text { display: flex; flex-direction: column; align-items: center; gap: 10px; } 
-#contain1 .server .text h5 { font-family: SUITE; font-size: 24px; font-weight: 700; line-height: 140%; letter-spacing: -0.75px; color: #555; text-align: center; } 
-#contain1 .server .text p { font-size: 16px; text-align: center; font-family: pretendard; line-height: 140%; letter-spacing: -0.75px; word-break: keep-all; color: #555; font-weight: 500; } 
+#contain1 .server .text h5 { font-family: "SUITE"; font-size: 24px; font-weight: 700; line-height: 140%; letter-spacing: -0.75px; color: #555; text-align: center; } 
+#contain1 .server .text p { font-size: 16px; text-align: center;  line-height: 140%; letter-spacing: -0.75px; word-break: keep-all; color: #555; font-weight: 500; } 
 
 
 #contain1 .hpcWrap { max-width: 1000px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 30px } 
 #contain1 .hpcWrap .funtion { display: flex; flex-direction: row; justify-content: flex-start; flex-wrap: wrap; align-items: center; gap: 10px; max-width: 830px; } 
 #contain1 .hpcWrap .funtion .fnt { width: 200px; height: 100px; display: flex; flex-direction: row; justify-content: center; align-items: center; border: 1px solid #ddd; border-radius: 10px; } 
-#contain1 .hpcWrap .funtion .fnt p { font-family: pretendard; font-size: 16px; font-weight: 500; letter-spacing: -0.75px; color: #333; } 
+#contain1 .hpcWrap .funtion .fnt p { font-size: 16px; font-weight: 500; letter-spacing: -0.75px; color: #333; } 
 #contain1 .hpcWrap .funtion .fnt img { width: 100%; height: 100%; object-fit: contain; } 
-#contain1 .hpcWrap .text p { font-family: pretendard; font-size: 16px; font-weight: 500; letter-spacing: -0.75px; color: #555; word-break: keep-all; max-width: 450px; text-align: center; line-height: 160%; } 
+#contain1 .hpcWrap .text p {  font-size: 16px; font-weight: 500; letter-spacing: -0.75px; color: #555; word-break: keep-all; max-width: 450px; text-align: center; line-height: 160%; } 
 #contain1 .hpcWrap .brand { margin-top: 50px; width: 100%; display: flex; flex-direction: column; align-items: center; gap: 50px; } 
 #contain1 .hpcWrap .brn .img { width: 400px; height: 150px; border-radius: 10px; background-color: #fff; } 
 #contain1 .hpcWrap .brn .cusor { cursor: pointer; border: 1px solid #ddd; transition: all 0.3s; } 
@@ -186,8 +186,8 @@
 #contain1 .infraWrap { display: flex; flex-direction: column; gap: 50px; } 
 #contain1 .infraWrap .inf { display: flex; flex-direction: column; gap: 30px; } 
 #contain1 .infraWrap .title { display: flex; flex-direction: column; gap: 10px; } 
-#contain1 .infraWrap .title .tit { color: #333; text-align: center; font-family: SUITE; font-size: 30px; font-weight: 800; line-height: 140%; letter-spacing: -1px; } 
-#contain1 .infraWrap .title .txt { color: #333; text-align: center; font-family: SUITE; font-size: 18px; font-weight: 500; line-height: 140%; letter-spacing: -1px; } 
+#contain1 .infraWrap .title .tit { color: #333; text-align: center; font-family: "SUITE"; font-size: 30px; font-weight: 800; line-height: 140%; letter-spacing: -1px; } 
+#contain1 .infraWrap .title .txt { color: #333; text-align: center; font-family: "SUITE"; font-size: 18px; font-weight: 500; line-height: 140%; letter-spacing: -1px; } 
 #contain1 .infraWrap .text p { font-size: 15px; line-height: 160%; letter-spacing: -0.75px; word-break: keep-all; text-align: center; } 
 #contain1 .infraWrap .brand { display: flex; flex-direction: row; gap: 30px; align-items: center; justify-content: center; flex-wrap: wrap; } 
 #contain1 .infraWrap .brand .img { width: 200px; height: 100px; } 
@@ -209,16 +209,16 @@
 #contain1 .inner .accordion .acrd.active { background-color: #f5f5f5; } 
 #contain1 .inner .accordion .acrd .acrd-header { display: flex; flex-direction: row; justify-content: space-between; align-items: center; padding: 20px 15px; width: 100%; gap: 50px; } 
 #contain1 .inner .accordion .acrd .acrd-header:hover { background-color: #f5f5f5; } 
-#contain1 .inner .accordion .acrd .acrd-header .title { color: #333; font-family: SUITE; font-size: 16px; text-transform: uppercase; font-weight: 700; letter-spacing: -0.8px; gap: 50px; text-align: left; } 
+#contain1 .inner .accordion .acrd .acrd-header .title { color: #333; font-family: "SUITE";font-size: 16px; text-transform: uppercase; font-weight: 700; letter-spacing: -0.8px; gap: 50px; text-align: left; } 
 #contain1 .inner .accordion .acrd .acrd-header .arrow { width: 24px; min-width: 24px; height: 20px; background: url(../img/performance/arrow-down.svg) no-repeat 50% 50%; background-size: contain; transition: all 0.3s; } 
 #contain1 .inner .accordion .acrd.active .acrd-header .arrow { transform: rotate(-180deg); } 
 #contain1 .inner .accordion .acrd .acrd-body { width: 100%; padding: 30px; display: none; } 
-#contain1 .inner .accordion .acrd .acrd-body .tit { color: #333; text-align: center; font-family: SUITE; font-size: 16px; font-style: normal; font-weight: 800; line-height: 160%; letter-spacing: -0.75px; text-transform: capitalize; padding: 15px 0; color:#555; } 
+#contain1 .inner .accordion .acrd .acrd-body .tit { color: #333; text-align: center;font-family: "SUITE"; font-size: 16px; font-style: normal; font-weight: 800; line-height: 160%; letter-spacing: -0.75px; text-transform: capitalize; padding: 15px 0; color:#555; } 
 #contain1 .inner .accordion .acrd .acrd-body .img { width: 100%; margin: 0 auto; padding: 15px 0; } 
 #contain1 .inner .accordion .acrd .acrd-body .img img { width: 100%; object-fit: contain; padding: 0; } 
 #contain1 .inner .accordion .acrd .acrd-body .btn { padding: 15px 0; display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 10px; } 
 #contain1 .inner .accordion .acrd .acrd-body .btn .view-bt { background-color: #00C6AB; border-radius: 5px; padding: 10px 15px; transition: all 0.3s; } 
-#contain1 .inner .accordion .acrd .acrd-body .btn .view-bt span { color: #222; text-align: center; font-family: SUITE; font-size: 15px; font-weight: 700; line-height: 160%; letter-spacing: -0.75px; } 
+#contain1 .inner .accordion .acrd .acrd-body .btn .view-bt span { color: #222; text-align: center;font-family: "SUITE"; font-size: 15px; font-weight: 700; line-height: 160%; letter-spacing: -0.75px; } 
 #contain1 .inner .accordion .acrd .acrd-body .btn .view-bt:hover { background-color: #10a395; } 
 #contain1 .inner .accordion .acrd .acrd-body .btn .view-bt:hover span { color:#fff; } 
 
@@ -232,18 +232,18 @@
 #contain1 .inner .accordion .acrd .text i.bnsn03 { background: url(../img/bsn-icon3.svg) no-repeat 50% 50%; background-size: cover; } 
 #contain1 .inner .accordion .acrd .text i.bnsn04 { background: url(../img/bsn-icon4.svg) no-repeat 50% 50%; background-size: cover; } 
 #contain1 .inner .accordion .acrd .text i.bnsn05 { background: url(../img/bsn-icon5.svg) no-repeat 50% 50%; background-size: cover; } 
-#contain1 .inner .accordion .acrd .text h3 { color: #333; text-align: center; font-family: SUITE; font-size: 40px; font-weight: 800; line-height: 160%; letter-spacing: -0.75px; } 
+#contain1 .inner .accordion .acrd .text h3 { color: #333; text-align: center;font-family: "SUITE"; font-size: 40px; font-weight: 800; line-height: 160%; letter-spacing: -0.75px; } 
 #contain1 .inner .accordion .acrd .text .txt { display: flex; flex-direction: column; align-items: flex-start; } 
-#contain1 .inner .accordion .acrd .text .txt small { color: #333; text-align: center; font-family: SUITE; font-size: 14px; font-weight: 600; line-height: 160%; letter-spacing: -0.75px; } 
-#contain1 .inner .accordion .acrd .text .txt p { color: #333; text-align: left; font-family: SUITE; font-size: 30px; font-weight: 600; line-height: 160%; letter-spacing: -0.75px; } 
+#contain1 .inner .accordion .acrd .text .txt small { color: #333; text-align: center;font-family: "SUITE"; font-size: 14px; font-weight: 600; line-height: 160%; letter-spacing: -0.75px; } 
+#contain1 .inner .accordion .acrd .text .txt p { color: #333; text-align: left;font-family: "SUITE"; font-size: 30px; font-weight: 600; line-height: 160%; letter-spacing: -0.75px; } 
 
 #contain1 .inner .accordion .acrd .textWrap { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; } 
 #contain1 .inner .accordion .acrd .textWrap .title { display: flex; gap: 5px; flex-direction: column; align-items: center; } 
 
 #contain1 .inner .accordion .acrd .textWrap .title .tit { display: flex; flex-direction: row; align-items: center; gap: 5px; } 
-#contain1 .inner .accordion .acrd .textWrap .title .tit p { color: #333; text-align: center; font-family: SUITE; font-size: 20px; font-weight: 500; line-height: 160%; letter-spacing: -0.75px; } 
-#contain1 .inner .accordion .acrd .textWrap .title .tit b { color: #333; text-align: center; font-family: SUITE; font-size: 30px; font-weight: 500; line-height: 160%; letter-spacing: -0.75px; } 
-#contain1 .inner .accordion .acrd .textWrap .title p { color: #333; text-align: center; font-family: SUITE; font-size: 16px; font-weight: 500; line-height: 160%; letter-spacing: -0.75px; } 
+#contain1 .inner .accordion .acrd .textWrap .title .tit p { color: #333; text-align: center;font-family: "SUITE"; font-size: 20px; font-weight: 500; line-height: 160%; letter-spacing: -0.75px; } 
+#contain1 .inner .accordion .acrd .textWrap .title .tit b { color: #333; text-align: center;font-family: "SUITE"; font-size: 30px; font-weight: 500; line-height: 160%; letter-spacing: -0.75px; } 
+#contain1 .inner .accordion .acrd .textWrap .title p { color: #333; text-align: center;font-family: "SUITE"; font-size: 16px; font-weight: 500; line-height: 160%; letter-spacing: -0.75px; } 
 #contain1 .inner .accordion .acrd .textWrap .title .point { padding: 10px; background-color: #555; border-radius: 5px; color: #fff; } 
 #contain1 .inner .accordion .acrd .textWrap .list { padding: 10px; } 
 
@@ -256,8 +256,8 @@
 
 .textWrap { display: flex; flex-direction: column; align-items: center; gap: 30px; } 
 .text { display: flex; flex-direction: column; align-items: center; gap: 10px; } 
-.text .tit { color: #555; text-align: center; font-family: pretendard; font-size: 18px; font-weight: 700; line-height: 140%; letter-spacing: -1px; } 
-.text .txt { color: #555; text-align: center; font-family: pretendard; font-size: 16px; font-weight: 400; line-height: 140%; letter-spacing: -0.75px; word-break: keep-all; } 
+.text .tit { color: #555; text-align: center;  font-size: 18px; font-weight: 700; line-height: 140%; letter-spacing: -1px; } 
+.text .txt { color: #555; text-align: center;  font-size: 16px; font-weight: 400; line-height: 140%; letter-spacing: -0.75px; word-break: keep-all; } 
 
 
 
@@ -270,17 +270,17 @@
 #contain2 .wrap { max-width: 1440px; width: 100%; margin: 0 auto; } 
 #contain2 .flex { display: flex; flex-direction: column; align-items: center; gap: 50px; } 
 #contain2 .title { display: flex; flex-direction: column; gap: 16px; } 
-#contain2 .title .tit { color: #000; font-family: SUITE; font-size: 24px; text-transform: uppercase; font-weight: 800; letter-spacing: -0.8px; } 
+#contain2 .title .tit { color: #000;font-family: "SUITE"; font-size: 24px; text-transform: uppercase; font-weight: 800; letter-spacing: -0.8px; } 
 #contain2 .title .txt { max-width: 500px; } 
-#contain2 .title p { color: #999; font-family: SUITE; font-size: 16px; font-weight: 500; letter-spacing: -1px; line-height: 1.6; word-break: keep-all; } 
+#contain2 .title p { color: #999;font-family: "SUITE"; font-size: 16px; font-weight: 500; letter-spacing: -1px; line-height: 1.6; word-break: keep-all; } 
 #contain2 .flexRow { display: flex; flex-direction: row; } 
 #contain2 .flexRow.circle { flex-wrap: wrap; justify-content: center; gap: 50px; } 
 #contain2 .flexRow .crc { border-radius: 50%; padding: 20px; background-color: #fff; box-shadow: 5px 5px 10px 0px #CBCBCB, -5px -5px 10px 0px #FAFBFF; width: 230px; height: 230px; display: flex; flex-direction: column; align-items: center; gap: 10px; justify-content: center; } 
-#contain2 .flexRow .crc .tit { font-size: 20px; max-width: 100px; font-family: SUITE; font-weight: 900; text-align: center; word-break: keep-all; color: #055C53; letter-spacing: -0.75px; } 
-#contain2 .flexRow .crc .txt { font-size: 14px; font-family: SUITE; font-weight: 500; letter-spacing: -0.75px; word-break: keep-all; text-align: center; line-height: 1.4; color: #555; } 
-#contain2 .text h3 { font-size: 24px; letter-spacing: -0.75px; font-family: SUITE; font-weight: 900; line-height: 1.6; margin: 50px 0; } 
+#contain2 .flexRow .crc .tit { font-size: 20px; max-width: 100px;font-family: "SUITE"; font-weight: 900; text-align: center; word-break: keep-all; color: #055C53; letter-spacing: -0.75px; } 
+#contain2 .flexRow .crc .txt { font-size: 14px;font-family: "SUITE"; font-weight: 500; letter-spacing: -0.75px; word-break: keep-all; text-align: center; line-height: 1.4; color: #555; } 
+#contain2 .text h3 { font-size: 24px; letter-spacing: -0.75px;font-family: "SUITE"; font-weight: 900; line-height: 1.6; margin: 50px 0; } 
 #contain2 .subText { width: 100%; } 
-#contain2 .subText p { color: #666; text-align: center; font-family: Pretendard; font-size: 16px; font-weight: 400; line-height: 160%; letter-spacing: -0.75px; word-break: keep-all; } 
+#contain2 .subText p { color: #666; text-align: center;  font-size: 16px; font-weight: 400; line-height: 160%; letter-spacing: -0.75px; word-break: keep-all; } 
 #contain2 .flexCol { display: flex; flex-direction: column; align-items: center; width: 100%; gap: 50px; padding: 50px 0; } 
 #contain2 .acsCnt { display: flex; flex-direction: row; align-items: center; justify-content: center; flex-wrap: wrap; gap: 50px; } 
 #contain2 .flexCol .content { width: 100%; max-width: 1440px; display: flex; flex-direction: row; align-items: center; justify-content: space-between; gap: 50px; padding: 50px 0; } 
@@ -300,9 +300,9 @@
 #contain2 .bsn .title .txt b { font-size: 24px; color: #fff; font-weight: 900; word-break: keep-all; } 
 #contain2 .bsn .content { width: 50%; padding:40px 30px; background-color: #fff; display: flex; flex-direction: row; align-items: center; gap: 30px; } 
 #contain2 .bsn .content .conTitle { gap: 20px; display: flex; flex-direction: column; align-items: flex-start; } 
-#contain2 .bsn .content .conTitle span { font-family: SUITE; color:#00423A; font-size: 20px; letter-spacing: -0.75px; font-weight: 600; } 
-#contain2 .bsn .content .conTitle b { font-family: SUITE; color:#00423A; font-size: 40px; letter-spacing: -0.75px; font-weight: 900; word-break: keep-all; } 
-#contain2 .bsn .content .conTitle p { font-family: SUITE; color:#727272; font-size: 15px; letter-spacing: -1px; font-weight: 600; word-break: keep-all; } 
+#contain2 .bsn .content .conTitle span {font-family: "SUITE"; color:#00423A; font-size: 20px; letter-spacing: -0.75px; font-weight: 600; } 
+#contain2 .bsn .content .conTitle b {font-family: "SUITE"; color:#00423A; font-size: 40px; letter-spacing: -0.75px; font-weight: 900; word-break: keep-all; } 
+#contain2 .bsn .content .conTitle p {font-family: "SUITE"; color:#727272; font-size: 15px; letter-spacing: -1px; font-weight: 600; word-break: keep-all; } 
 #contain2 .bsn .content .conText ul { display: flex; flex-direction: column; align-items: flex-start; gap: 5px; } 
 #contain2 .bsn .content .conText ul li { font-size: 14px; color: #555; line-height: 1.6; letter-spacing: -0.75px; position: relative; display: flex; align-items: center; gap: 10px; word-break: keep-all; } 
 #contain2 .bsn .content .conText ul li::before { content: ''; width: 3px; height: 3px; background-color: #555; border-radius: 50%; } 
@@ -347,25 +347,25 @@
 #contain2 .flexCol .border { border: 1px solid #ddd; } 
 #contain2 .flexCol .soultionList { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; padding: 30px 10px; gap: 20px; max-width: 1440px; } 
 #contain2 .flexCol .soultionList .item { height: 50px; padding: 10px; border: 1px solid #ddd; display: flex; flex-direction: row; justify-content: center; align-items: center; border-radius: 10px; background-color: #dddddd; box-shadow: 0px 2px 5px 0px rgba(152, 152, 152, 0.25); } 
-#contain2 .flexCol .soultionList .item p { font-family: SUITE; font-size: 12px; font-weight: 600; letter-spacing: -1px; color: #333; } 
+#contain2 .flexCol .soultionList .item p {font-family: "SUITE"; font-size: 12px; font-weight: 600; letter-spacing: -1px; color: #333; } 
 
 /* contain2 - 인증및보유기술 */
 #contain2 .skl-wrap { display: flex; flex-direction: row; align-items: center; flex-wrap: wrap; gap: 10px; padding: 30px 0; justify-content: center; } 
-#contain2 .skl { width: 150px; height: 150px; background-color: #fff; padding: 15px; border-radius: 20px; box-shadow: 10px 10px 40px 0px rgb(197 197 197 / 62%); border: 1px solid #eef2f0;; } 
+#contain2 .skl { width: 150px; height: 150px; background-color: #fff; border-radius: 20px; box-shadow: 10px 10px 40px 0px rgb(197 197 197 / 62%); border: 1px solid #eef2f0;; } 
 #contain2 .skl .con { display: flex; flex-direction: column; align-items: center; gap: 10px; justify-content: center; width: 100%; height: 100%; } 
-#contain2 .skl .con .title { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; width: 100%; } 
+#contain2 .skl .con .title { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; width: 100%; padding: 0 10px;} 
 #contain2 .skl .con .title .icon { width: 30px; height:30px; } 
 #contain2 .skl .con .title .icon img { width: 100%; height: 100%; } 
-#contain2 .skl .con .title .tit { font-size: 14px; letter-spacing: -1px; font-weight: 500; font-family: SUITE; } 
-#contain2 .skl .con .num { font-size: 36px; font-weight: 900; font-family: SUITE; } 
+#contain2 .skl .con .title .tit p{font-size: 14px;}
+#contain2 .skl .con .num { font-size: 36px; font-weight: 900;font-family: "SUITE"; } 
 #contain2 .skl .con .num b { color: #63C0AD; } 
 
 /* 관계사 */
 #contain2.contain { width: 100%; position: relative; background-color: #ffffff; display: flex; flex-direction: column; align-items: center; gap: 50px; } 
 #contain2 .flex .subTitle { display: flex; flex-direction: column; align-items: center; gap: 15px; } 
-#contain2 .subTitle .tit { color: #727272; font-family: Pretendard; font-size: 18px; font-weight: 400; letter-spacing: -0.135px; text-transform: uppercase; } 
-#contain2 .subTitle .title { color: #000; font-family: Pretendard; font-size: 36px; font-weight: 900; letter-spacing: -0.27px; text-align: center; word-break: keep-all; line-height: 1.4; } 
-#contain2 .subTitle h5 { color: #000; font-family: SUITE; font-size: 18px; font-weight: 400; letter-spacing: -0.75px; line-height: 1; } 
+#contain2 .subTitle .tit { color: #727272;  font-size: 18px; font-weight: 400; letter-spacing: -0.135px; text-transform: uppercase; } 
+#contain2 .subTitle .title { color: #000;  font-size: 36px; font-weight: 900; letter-spacing: -0.27px; text-align: center; word-break: keep-all; line-height: 1.4; } 
+#contain2 .subTitle h5 { color: #000;font-family: "SUITE"; font-size: 18px; font-weight: 400; letter-spacing: -0.75px; line-height: 1; } 
 #contain2 .subText p { font-size: 15px; } 
 #contain2 .row { width: 100%; display: flex; flex-direction: row; flex-wrap: wrap; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; } 
 #contain2 .row .com { width: calc(100% / 3); height: 640px; border-right: 1px solid #ddd; background-color: #fff; background-size: cover; filter: opacity(0.5); transition: 0.3s; } 
@@ -376,7 +376,7 @@
 #contain2 .row .com3 { background:url(../img/aff-company-03.png) no-repeat 50% 50%; } 
 #contain2 .row .com a { display: block; width: 100%; height: 100%; } 
 #contain2 .row .com a .text { width: 100%; height: 100%; display: flex; flex-direction: row; align-items: flex-end; padding: 50px; justify-content: space-between; } 
-#contain2 .row .com a .text p { font-size: 18px; font-family: SUITE; font-weight: 700; letter-spacing: -0.75px; word-break: keep-all; color: #333333; line-height: 50px; } 
+#contain2 .row .com a .text p { font-size: 18px;font-family: "SUITE"; font-weight: 700; letter-spacing: -0.75px; word-break: keep-all; color: #333333; line-height: 50px; } 
 #contain2 .row .com a .text i { width: 50px; height: 50px; background: url(../img/icon-arrow.svg) no-repeat 50% 50%; background-size: contain; } 
 
 /* contain2 - MSP 클라우드 */
@@ -386,7 +386,7 @@
 #contain2 .brandWrap .brand img { width: 100%; height: 100%; object-fit: contain; cursor: pointer; } 
 #contain2 .img { width: 100%; display: flex; flex-direction: column; gap: 10px; margin: 0 auto; } 
 #contain2 .img img { width: 100%; height: 100%; object-fit: contain; } 
-#contain2 .img p { color: #333; text-align: center; font-family: pretendard; font-size: 14px; font-weight: 500; line-height: 140%; letter-spacing: -0.75px; margin: 0 auto; word-break: keep-all; } 
+#contain2 .img p { color: #333; text-align: center; font-size: 14px; font-weight: 500; line-height: 140%; letter-spacing: -0.75px; margin: 0 auto; word-break: keep-all; } 
 #contain2 .cusor { cursor: pointer; } 
 
 
@@ -421,12 +421,12 @@
 #contain3 .flex { display: flex; flex-direction: column; align-items: center; gap: 50px; } 
 #contain3 .title { display: flex; flex-direction: column; gap: 16px; } 
 #contain3 .flex .subTitle { display: flex; flex-direction: column; align-items: center; gap: 15px; } 
-#contain3 .subTitle .tit { color: #727272; font-family: Pretendard; font-size: 18px; font-weight: 400; letter-spacing: -0.135px; text-transform: uppercase; } 
-#contain3 .subTitle .title { color: #000; font-family: Pretendard; font-size: 36px; font-weight: 900; letter-spacing: -0.27px; text-align: center; line-height: 1.4; word-break: keep-all; } 
-#contain3 .subTitle h5 { color: #000; font-family: Pretendard; font-size: 20px; font-weight: 400; letter-spacing: -0.75px; line-height: 1; } 
+#contain3 .subTitle .tit { color: #727272;  font-size: 18px; font-weight: 400; letter-spacing: -0.135px; text-transform: uppercase; } 
+#contain3 .subTitle .title { color: #000;  font-size: 36px; font-weight: 900; letter-spacing: -0.27px; text-align: center; line-height: 1.4; word-break: keep-all; } 
+#contain3 .subTitle h5 { color: #000;  font-size: 20px; font-weight: 400; letter-spacing: -0.75px; line-height: 1; } 
 #contain3 .flexRow { display: flex; flex-direction: row; justify-content: center; gap: 50px; margin: 50px 0; } 
 #contain3 .flexRow .con { border-radius: 300px; background: linear-gradient(135deg, rgba(0, 0, 0, 0.40) 0%, rgba(255, 255, 255, 0.40) 100%), #494949; background-blend-mode: soft-light, normal; box-shadow: 30px 30px 60px 0px #C9C9C9; width: 250px; height: 250px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 0 30px; word-break: keep-all; text-align: center; } 
-#contain3 .flexRow .con h3 { font-size: 24px; color: #fff; line-height: 1.6; font-weight: 900; font-family: SUITE; letter-spacing: -0.75px; } 
+#contain3 .flexRow .con h3 { font-size: 24px; color: #fff; line-height: 1.6; font-weight: 900;font-family: "SUITE"; letter-spacing: -0.75px; } 
 #contain3 .flexRow .contentwrap { display: flex; position: relative; gap: 50px; } 
 #contain3 .flexRow .contentwrap::before { content: ''; background: url(../img/business/arrow-left.svg)no-repeat 50% 50%; width: 150px; height: 200px; background-size: contain; } 
 #contain3 .flexRow .contentwrap::after { content: ''; background: url(../img/business/arrow-right.svg)no-repeat 50% 50%; width: 150px; height: 200px; background-size: contain; } 
@@ -477,9 +477,9 @@
 #contain4 .flex { display: flex; flex-direction: column; align-items: center; gap: 50px; } 
 #contain4 .title { display: flex; flex-direction: column; gap: 16px; } 
 #contain4 .flex .subTitle { display: flex; flex-direction: column; align-items: center; gap: 15px; } 
-#contain4 .subTitle .tit { color: #727272; font-family: Pretendard; font-size: 18px; font-weight: 400; letter-spacing: -0.135px; text-transform: uppercase; } 
-#contain4 .subTitle .title { color: #000; font-family: Pretendard; font-size: 36px; font-weight: 900; letter-spacing: -0.27px; text-align: center; line-height: 1.4; word-break: keep-all; } 
-#contain4 .subTitle h5 { color: #000; font-family: Pretendard; font-size: 20px; font-weight: 400; letter-spacing: -0.75px; line-height: 1; } 
+#contain4 .subTitle .tit { color: #727272; font-size: 18px; font-weight: 400; letter-spacing: -0.135px; text-transform: uppercase; } 
+#contain4 .subTitle .title { color: #000; font-size: 36px; font-weight: 900; letter-spacing: -0.27px; text-align: center; line-height: 1.4; word-break: keep-all; } 
+#contain4 .subTitle h5 { color: #000; font-size: 20px; font-weight: 400; letter-spacing: -0.75px; line-height: 1; } 
 #contain4 .flexRow { display: flex; flex-direction: row; justify-content: center; gap: 50px; margin: 50px 0; } 
 
 #contain4 .contents { display: flex; flex-direction: column; align-items: center; gap: 50px; padding: 50px 0; } 
